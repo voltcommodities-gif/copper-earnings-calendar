@@ -1,0 +1,88 @@
+# Lista de empresas/grupos a monitorar — Copper Earnings Calendar
+
+Verificar diariamente se alguma destas empresas anunciou oficialmente (via comunicado de RI, RNS, SEC/6-K, ou calendário financeiro oficial) uma nova data de divulgação de resultados/relatório de produção. Só adicionar ao calendário (index.html) quando houver fonte oficial confirmada — nunca estimar ou inferir datas.
+
+- Freeport-McMoRan / SMM-Sumitomo / Buenaventura
+- BHP / Glencore / Teck / Mitsubishi
+- MMG / Guoxin / CITIC
+- Anglo American / Mitsubishi
+- Chinalco
+- Hudbay Minerals
+- Freeport-McMoRan / Sumitomo
+- Rio Tinto
+- Freeport-McMoRan
+- Rio Tinto / BHP
+- Governo da Indonesia / Freeport-McMoRan / PTFI
+- Rio Tinto / Governo da Mongolia
+- Ivanhoe / Zijin Mining / Governo RD Congo
+- CMOC / Gecamines
+- Glencore / Gecamines
+- CMOC / CATL / Governo RD Congo
+- First Quantum Minerals
+- First Quantum Minerals / ZCCM-IH
+- IRH / ZCCM-IH
+- BHP
+- KAZ Minerals
+- First Quantum Minerals
+- Barrick / Governo do Paquistão e Baluchistão
+- Udokan Copper
+- Nornickel
+- Grupo México / Southern Cooper
+- Teck Resources
+- Hudbay Minerals / Mitsubishi Materials
+- NICICO
+- Zijin Mining / Estado Sérvio
+- Cengiz Holding
+- Glencore (via projeto MARA)
+- BHP / Rio Tinto / JECO-Mitsubishi
+- Anglo American / Glencore / Mitsui-JCR
+- Codelco
+- Antofagasta Minerals
+- Glencore
+- BHP
+- Antofagasta / Barrick
+- Freeport-McMoRan / Codelco
+- Teck / Sumitomo / ENAMI
+- Antofagasta plc / Marubeni
+- Anglo American / Mitsubishi / Codelco-Mitsui
+- Lundin Mining / JX Advanced Metals
+- KGHM / South32
+- Lundin Mining / Sumitomo
+- Capstone Copper / Mitsubishi Materials
+- Southern Copper / Grupo México
+- Marcobre: Minsur / Copec-Alxar
+- Vale
+- Barrick Mining
+- CREC + PowerChina / Gécamines
+- Zijin Mining
+- Boliden
+- Kazakhmys
+- AMMC (estatal do Uzbequistão)
+- Zijin Mining / estatais tibetanas
+- Jiangxi Copper
+- Erdenet Mining Corp. (estatal da Mongólia)
+- Amman Mineral (PT AMNT)
+- Ok Tedi Mining (Estado de Papua-Nova Guiné)
+- Newmont
+- BHP / Lundin Mining
+- EcuaCorriente (CRCC-Tongguan, China)
+- Guangxi Nanko Copper
+- Tongling Nonferrous
+- Adani Enterprises
+- PT Freeport Indonesia
+- Sumitomo Metal Mining
+- Aurubis
+- JX Nippon Mining
+- Hindalco
+- Yunnan Copper
+- Guangxi Xingyue
+- Daye Nonferrous
+- Jinchuan / Trafigura
+- Estatais de Gansu
+- Norilsk Nickel
+- Dongying Fangyuan
+- Vedanta
+- Xiamen C&D
+
+## Observação
+Várias destas entidades são estatais ou privadas sem calendário de RI público (ex.: Codelco, Chinalco, governos, mineradoras chinesas). Para essas, é normal a busca diária não encontrar nada — só atualizar quando houver fonte oficial real.
