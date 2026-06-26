@@ -170,18 +170,67 @@ main{
 }
 
 /* Comments feed */
+.filter-bar{
+  width:100%;
+  max-width:760px;
+  display:flex;
+  justify-content:flex-end;
+  align-items:center;
+  gap:10px;
+  margin-bottom:20px;
+}
+.filter-bar input[type="date"]{
+  border:1px solid var(--navy);
+  color:var(--navy);
+  font-family:inherit;
+  font-size:12px;
+  padding:7px 10px;
+  border-radius:3px;
+  background:var(--white);
+}
+.filter-bar button{
+  border:1px solid var(--border);
+  background:var(--white);
+  color:var(--grey);
+  font-size:11px;
+  letter-spacing:0.5px;
+  padding:7px 12px;
+  border-radius:3px;
+  cursor:pointer;
+}
+.filter-bar button:hover{
+  color:var(--navy);
+  border-color:var(--navy);
+}
+
 .feed{
   width:100%;
   max-width:760px;
   display:flex;
   flex-direction:column;
-  gap:16px;
+  gap:8px;
 }
 .feed-empty{
   color:var(--grey);
   font-size:13px;
   text-align:center;
   margin-top:40px;
+}
+.day-group{
+  margin-bottom:20px;
+}
+.day-group-header{
+  font-size:12px;
+  font-weight:700;
+  letter-spacing:0.5px;
+  color:var(--white);
+  background:var(--navy);
+  padding:8px 14px;
+  text-transform:capitalize;
+  margin-bottom:10px;
+}
+.day-group .card{
+  margin-bottom:12px;
 }
 .card{
   border:1px solid var(--border);
