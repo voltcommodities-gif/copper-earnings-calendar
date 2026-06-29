@@ -1,5 +1,8 @@
 // Eventos confirmados (aba "Confirmados")
 const events = {
+  "2026-07-21": [
+    { co: "Boliden (BOL)", desc: "Relatório de Resultados do 2º trimestre 2026" }
+  ],
   "2026-07-23": [
     { co: "Anglo American (AAL)", desc: "Relatório de Produção Q2 2026" },
     { co: "Teck Resources (TECK)", desc: "Teleconferência de resultados Q2 2026" }
@@ -9,7 +12,8 @@ const events = {
     { co: "Glencore (GLEN)", desc: "Relatório de Produção do 1º semestre 2026" }
   ],
   "2026-07-30": [
-    { co: "Anglo American (AAL)", desc: "Resultado do 1º semestre de 2026" }
+    { co: "Anglo American (AAL)", desc: "Resultado do 1º semestre de 2026" },
+    { co: "Ivanhoe Mines (IVN)", desc: "Teleconferência de resultados Q2 2026" }
   ],
   "2026-08-05": [
     { co: "Glencore (GLEN)", desc: "Resultado do 1º semestre de 2026" }
@@ -19,6 +23,9 @@ const events = {
   ],
   "2026-08-18": [
     { co: "BHP Group (BHP)", desc: "Resultado do ano fiscal 2026 (encerrado 30/jun/26)" }
+  ],
+  "2026-08-19": [
+    { co: "KGHM Polska Miedź (KGH)", desc: "Relatório consolidado do 1º semestre 2026" }
   ],
   "2026-10-20": [
     { co: "Anglo American (AAL)", desc: "Relatório de Produção Q3 2026" },

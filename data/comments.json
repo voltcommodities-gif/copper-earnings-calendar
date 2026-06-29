@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "id": "bhp-lundin-2026-06-16-vicuna-rigi",
+    "company": "BHP / Lundin Mining (Vicuña Corp.)",
+    "date": "2026-06-16",
+    "summary": "Vicuña Corp. (joint venture BHP/Lundin Mining) recebeu aprovação para o regime RIGI PEELP na Argentina, tornando-se o primeiro projeto de cobre no país a obter esse status. Investimento inicial de US$ 9,7 bi, com potencial de escalar para US$ 18 bi. A aprovação reforça a certeza regulatória para a decisão final de investimento (FID) da Etapa 1 (usina de sulfetos + depósito Josemaría), esperada até o final de 2026 — o relatório técnico de fevereiro/2026 estimava capex inicial de US$ 7,1 bi para essa primeira etapa.",
+    "source_type": "press_release",
+    "source_url": "https://www.lundinmining.com/news/vicua-corp-receives-approval-for-rigi-peelp-in-argentina",
+    "extra_sources": [],
+    "fingerprint": "BHP/Lundin Vicuña|2026-06-16|RIGI PEELP Argentina aprovação investimento 9.7bi Josemaria FID",
+    "added_at": "2026-06-29T13:10:00Z"
+  },
+  {
+    "id": "rio-tinto-2026-06-18-oyu-tolgoi-blockade",
+    "company": "Rio Tinto (RIO) / Oyu Tolgoi LLC",
+    "date": "2026-06-18",
+    "summary": "Oyu Tolgoi LLC confirmou que as exportações de concentrado de cobre para a China voltaram ao normal em 18/jun, após bloqueio de rotas de transporte por manifestantes do Radical Reform Movement entre 16-17/jun. A empresa não confirmou acordo com os manifestantes, que pressionam por maior participação de Mongólia (34% via Erdenes Mongol) nas receitas do projeto — Rio Tinto detém 66%. Oyu Tolgoi é peça central da estratégia de crescimento em cobre da Rio, com expectativa de se tornar a 4ª maior mina de cobre do mundo até 2030.",
+    "source_type": "press_release",
+    "source_url": "https://www.mining.com/rio-tintos-oyu-tolgoi-resumes-exports-after-mongolia-blockade/",
+    "extra_sources": [
+      "https://www.bloomberg.com/news/articles/2026-06-18/rio-tinto-resumes-copper-exports-from-massive-mongolian-mine",
+      "https://www.spglobal.com/energy/en/news-research/latest-news/metals/061826-copper-shipments-resume-from-mongolias-oyu-tolgoi-mine-after-protests"
+    ],
+    "fingerprint": "Rio Tinto Oyu Tolgoi|2026-06-18|bloqueio exportações concentrado China retomadas Mongolia protesto",
+    "added_at": "2026-06-29T13:10:00Z"
+  },
+  {
+    "id": "anglo-codelco-2026-06-24-los-bronces-andina",
+    "company": "Anglo American (AAL) / Codelco",
+    "date": "2026-06-24",
+    "summary": "Anglo American (via Anglo American Sur, 50,1%) e Codelco concluíram o acordo definitivo para plano de mina conjunto entre Los Bronces e Andina, após obtenção das aprovações regulatórias/concorrenciais. O plano deve desbloquear 2,7 Mt de cobre adicional ao longo de 21 anos (média de 120 kt/ano adicionais, divididos igualmente em 60 kt/ano para cada empresa), com capex mínimo e geração de pelo menos US$ 5 bi em valor compartilhado pré-impostos. Estrutura cria uma OpCo conjunta 50/50, sem fusão de propriedade dos ativos — cada empresa mantém titularidade legal de sua mina.",
+    "source_type": "press_release",
+    "source_url": "https://www.angloamerican.com/media/press-releases/2026/24-06-2026",
+    "extra_sources": [
+      "https://www.globalminingreview.com/mining/25062026/anglo-american-and-codelco-complete-los-bronces--andina-agreement-paving-the-way-to-deliver-27-million-t-of-additional-copper-production/"
+    ],
+    "fingerprint": "Anglo American Codelco|2026-06-24|Los Bronces Andina acordo definitivo plano mina conjunto 2.7Mt",
+    "added_at": "2026-06-29T13:10:00Z"
+  },
+  {
+    "id": "hudbay-2026-06-24-arizona-sonoran-acquisition",
+    "company": "Hudbay Minerals (HBM)",
+    "date": "2026-06-24",
+    "summary": "Hudbay concluiu a aquisição da Arizona Sonoran Copper Company via plano de arranjo aprovado judicialmente, com ex-acionistas da ASCU recebendo 0,242 ação da Hudbay por ação da ASCU. A combinação do projeto Cactus (ex-ASCU) com o Copper World da Hudbay cria, segundo a empresa, o terceiro maior distrito de cobre da América do Norte. ASCU foi deslistada da TSX após o fechamento da transação.",
+    "source_type": "press_release",
+    "source_url": "https://www.globenewswire.com/news-release/2026/06/24/3316857/0/en/hudbay-completes-acquisition-of-arizona-sonoran-to-create-the-third-largest-copper-district-in-north-america.html",
+    "extra_sources": [],
+    "fingerprint": "Hudbay Minerals|2026-06-24|aquisição Arizona Sonoran Cactus Copper World terceiro maior distrito cobre",
+    "added_at": "2026-06-29T13:10:00Z"
+  },
+  {
+    "id": "southern-copper-2026-06-25-tia-maria-notes",
+    "company": "Southern Copper Corporation (SCCO) / Southern Peru Copper Corp.",
+    "date": "2026-06-25",
+    "summary": "Southern Copper concluiu oferta pública de US$ 1,25 bi em notes com cupom de 5,35% e vencimento em 2036 (precificadas em 16/jun, oferta concluída em 25/jun), com juros semestrais a partir de dez/2026. Recursos destinados à Southern Peru Copper Corp. para o desenvolvimento do projeto Tía María, financiamento do programa de capex da SPCC e/ou propósitos corporativos gerais. Tía María terá capacidade de 120 kt/ano de cobre refinado via tecnologia SX-EW, com início de operação previsto para o 3º trimestre de 2027.",
+    "source_type": "press_release",
+    "source_url": "https://www.tradingview.com/news/tradingview:741eed439d566:0-southern-copper-completes-1-25-billion-5-350-notes-offering-to-fund-spcc-projects/",
+    "extra_sources": [],
+    "fingerprint": "Southern Copper SPCC|2026-06-25|notes 1.25bi 5.35% 2036 Tia Maria 120kt SX-EW 2027",
+    "added_at": "2026-06-29T13:10:00Z"
+  }
+]
