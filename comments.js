@@ -8,7 +8,7 @@ const sourceTypeLabels = {
 const weekdayNames = ["Domingo","Segunda-feira","Terça-feira","Quarta-feira","Quinta-feira","Sexta-feira","Sábado"];
 const monthNamesFull = ["janeiro","fevereiro","março","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"];
 
-let allComments = [];
+const allComments = {}; // key (ex: "cobre") -> array de itens
 
 function formatDateLabel(iso){
   const [y, m, d] = iso.split("-").map(Number);
@@ -16,13 +16,13 @@ function formatDateLabel(iso){
   return weekdayNames[dt.getDay()] + ", " + d + " de " + monthNamesFull[m - 1] + " de " + y;
 }
 
-function renderCard(item){
+function renderCard(item, key){
   const extraLinks = (item.extra_sources || [])
     .map((url, i) => '<a href="' + url + '" target="_blank" rel="noopener">Fonte adicional ' + (i + 1) + '</a>')
     .join('');
 
   return (
-    '<div class="card">' +
+    '<div class="card card-' + key + '">' +
       '<div class="card-head">' +
         '<div class="card-company">' + item.company + '</div>' +
       '</div>' +
@@ -35,10 +35,10 @@ function renderCard(item){
   );
 }
 
-function renderFeed(filterDate){
-  const feed = document.getElementById('feed');
+function renderColumn(key, filterDate){
+  const feed = document.getElementById('feed-' + key);
 
-  let items = allComments;
+  let items = allComments[key] || [];
   if(filterDate){
     items = items.filter(item => item.date === filterDate);
   }
@@ -58,22 +58,29 @@ function renderFeed(filterDate){
     const dayItems = items.filter(item => item.date === date);
     return (
       '<div class="day-group">' +
-        '<div class="day-group-header">' + formatDateLabel(date) + '</div>' +
-        dayItems.map(renderCard).join('') +
+        '<div class="day-group-header day-group-header-' + key + '">' + formatDateLabel(date) + '</div>' +
+        dayItems.map(item => renderCard(item, key)).join('') +
       '</div>'
     );
   }).join('');
 }
 
+function renderFeed(filterDate){
+  Object.keys(COMMODITIES).forEach(key => renderColumn(key, filterDate));
+}
+
 async function loadComments(){
-  const feed = document.getElementById('feed');
-  try{
-    const res = await fetch('data/comments.json', { cache: 'no-store' });
-    allComments = await res.json();
-    renderFeed(null);
-  }catch(e){
-    feed.innerHTML = '<div class="feed-empty">Não foi possível carregar os comentários.</div>';
-  }
+  await Promise.all(Object.keys(COMMODITIES).map(async key => {
+    try{
+      const res = await fetch(COMMODITIES[key].commentsFile, { cache: 'no-store' });
+      allComments[key] = await res.json();
+    }catch(e){
+      allComments[key] = [];
+      const feed = document.getElementById('feed-' + key);
+      feed.innerHTML = '<div class="feed-empty">Não foi possível carregar os comentários.</div>';
+    }
+  }));
+  renderFeed(null);
 }
 
 document.getElementById('dateFilter').addEventListener('change', (e) => {

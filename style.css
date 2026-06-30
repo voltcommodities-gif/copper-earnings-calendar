@@ -1,6 +1,8 @@
 :root{
   --navy:#0a1f44;
   --navy-light:#13335e;
+  --purple:#3d1f5c;
+  --purple-light:#5a3380;
   --white:#ffffff;
   --grey:#8a93a3;
   --border:#e6e9ef;
@@ -104,10 +106,45 @@ main{
   text-align:center;
   letter-spacing:0.5px;
 }
+
+/* Two-column commodity layout (shared by calendar and comments views) */
+.columns{
+  width:100%;
+  max-width:1280px;
+  display:flex;
+  gap:24px;
+  align-items:flex-start;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+.column{
+  flex:1 1 460px;
+  min-width:320px;
+  max-width:620px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+.column-header{
+  width:100%;
+  text-align:center;
+  font-size:12px;
+  font-weight:700;
+  letter-spacing:1.5px;
+  text-transform:uppercase;
+  color:var(--white);
+  padding:9px 0;
+  margin-bottom:12px;
+}
+.column-header-cobre{ background:var(--navy); }
+.column-header-petroleo{ background:var(--purple); }
+
 .calendar{
   width:100%;
-  max-width:920px;
   border:1px solid var(--navy);
+}
+.calendar-petroleo{
+  border-color:var(--purple);
 }
 .weekdays, .grid{
   display:grid;
@@ -122,12 +159,15 @@ main{
   background:var(--navy);
   padding:10px 0;
 }
+.calendar-petroleo .weekdays div{
+  background:var(--purple);
+}
 .day{
   position:relative;
-  min-height:96px;
+  min-height:76px;
   border-right:1px solid var(--border);
   border-bottom:1px solid var(--border);
-  padding:8px;
+  padding:6px;
   background:var(--white);
 }
 .grid .day:nth-child(7n){
@@ -145,9 +185,12 @@ main{
   color:var(--navy);
   font-weight:700;
 }
+.calendar-petroleo .day.has-event .day-num{
+  color:var(--purple);
+}
 .event{
   margin-top:6px;
-  font-size:10.5px;
+  font-size:10px;
   line-height:1.3;
   background:var(--navy);
   color:var(--white);
@@ -155,6 +198,9 @@ main{
   border-radius:3px;
   margin-bottom:4px;
   cursor:default;
+}
+.event-petroleo{
+  background:var(--purple);
 }
 .event .co{
   font-weight:700;
@@ -168,11 +214,21 @@ main{
   max-width:640px;
   line-height:1.6;
 }
+.legend-swatch{
+  display:inline-block;
+  width:10px;
+  height:10px;
+  border-radius:2px;
+  margin-right:5px;
+  vertical-align:middle;
+}
+.legend-swatch-cobre{ background:var(--navy); }
+.legend-swatch-petroleo{ background:var(--purple); }
 
 /* Comments feed */
 .filter-bar{
   width:100%;
-  max-width:760px;
+  max-width:1280px;
   display:flex;
   justify-content:flex-end;
   align-items:center;
@@ -205,7 +261,6 @@ main{
 
 .feed{
   width:100%;
-  max-width:760px;
   display:flex;
   flex-direction:column;
   gap:8px;
@@ -229,6 +284,9 @@ main{
   text-transform:capitalize;
   margin-bottom:10px;
 }
+.day-group-header-petroleo{
+  background:var(--purple);
+}
 .day-group .card{
   margin-bottom:12px;
 }
@@ -237,6 +295,9 @@ main{
   border-left:3px solid var(--navy);
   padding:16px 20px;
   background:var(--white);
+}
+.card-petroleo{
+  border-left-color:var(--purple);
 }
 .card-head{
   display:flex;

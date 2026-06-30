@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Copper Earnings Calendar</title>
+<title>Commodities Earnings Calendar</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-  <div class="title">Copper Earnings Calendar</div>
+  <div class="title">Commodities Earnings Calendar</div>
   <div class="brand">BTG VOLT</div>
 </header>
 
@@ -26,15 +26,32 @@
       <button id="next">&#8594;</button>
     </div>
 
-    <div class="calendar">
-      <div class="weekdays">
-        <div>DOM</div><div>SEG</div><div>TER</div><div>QUA</div><div>QUI</div><div>SEX</div><div>SÁB</div>
+    <div class="columns">
+      <div class="column">
+        <div class="column-header column-header-cobre">Cobre</div>
+        <div class="calendar calendar-cobre">
+          <div class="weekdays">
+            <div>DOM</div><div>SEG</div><div>TER</div><div>QUA</div><div>QUI</div><div>SEX</div><div>SÁB</div>
+          </div>
+          <div class="grid" id="grid-cobre"></div>
+        </div>
       </div>
-      <div class="grid" id="grid"></div>
+
+      <div class="column">
+        <div class="column-header column-header-petroleo">Petróleo</div>
+        <div class="calendar calendar-petroleo">
+          <div class="weekdays">
+            <div>DOM</div><div>SEG</div><div>TER</div><div>QUA</div><div>QUI</div><div>SEX</div><div>SÁB</div>
+          </div>
+          <div class="grid" id="grid-petroleo"></div>
+        </div>
+      </div>
     </div>
 
     <div class="legend">
       Datas confirmadas oficialmente pelas próprias empresas (calendário de RI, RNS ou comunicado SEC/6-K).<br>
+      <span class="legend-swatch legend-swatch-cobre"></span> Cobre &nbsp;&nbsp;
+      <span class="legend-swatch legend-swatch-petroleo"></span> Petróleo<br>
       Pesquisado em 26/06/2026.
     </div>
   </div>
@@ -44,13 +61,26 @@
       <input type="date" id="dateFilter" />
       <button id="clearFilter">Limpar</button>
     </div>
-    <div class="feed" id="feed">
-      <div class="feed-empty">Carregando...</div>
+
+    <div class="columns">
+      <div class="column">
+        <div class="column-header column-header-cobre">Cobre</div>
+        <div class="feed" id="feed-cobre">
+          <div class="feed-empty">Carregando...</div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="column-header column-header-petroleo">Petróleo</div>
+        <div class="feed" id="feed-petroleo">
+          <div class="feed-empty">Carregando...</div>
+        </div>
+      </div>
     </div>
   </div>
 </main>
 
-<footer>Copper Earnings Calendar — dados confirmados oficialmente</footer>
+<footer>Commodities Earnings Calendar — dados confirmados oficialmente</footer>
 
 <script>
   const tabCalendar = document.getElementById('tab-calendar');
@@ -72,6 +102,9 @@
     viewCalendar.classList.remove('active');
   });
 </script>
+<script src="commodities.js"></script>
+<script src="data/events-cobre.js"></script>
+<script src="data/events-petroleo.js"></script>
 <script src="calendar.js"></script>
 <script src="comments.js"></script>
 

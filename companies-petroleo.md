@@ -1,0 +1,541 @@
+# Lista de empresas/grupos a monitorar — Petróleo Earnings Calendar
+
+Verificar diariamente se alguma destas empresas anunciou oficialmente (via comunicado de RI, RNS, SEC/6-K, ou calendário financeiro oficial) uma nova data de divulgação de resultados/relatório de produção. Só adicionar ao calendário (data/events-petroleo.js) quando houver fonte oficial confirmada — nunca estimar ou inferir datas.
+
+## EUA
+
+- Goodway Refining LLC
+- Hunt Refining Co
+- Vertex Refining Alabama LLC
+- ConocoPhillips Alaska Inc
+- ConocoPhillips
+- Hilcorp North Slope LLC
+- Petro Star Inc
+- Tesoro Alaska Company LLC
+- Cross Oil Refining & Marketing Inc
+- Lion Oil Co
+- Chevron USA Inc
+- Kern Oil & Refining Co
+- Lunday Thagard Co
+- Martinez Refining Co LLC
+- Phillips 66 Company
+- Phillips 66
+- San Joaquin Refining Co Inc
+- Talley Asphalt Products Inc
+- Tesoro Refining & Marketing Co
+- Torrance Refining Co LLC
+- Ultramar Inc
+- Valero
+- Valero Refining Co California
+- Suncor Energy (USA) Inc
+- Suncor Energy
+- Delaware City Refining Co LLC
+- Par Hawaii Refining LLC
+- ExxonMobil Refining & Supply Co
+- ExxonMobil
+- Marathon Petroleum Co LP
+- PDV Midwest Refining LLC
+- WRB Refining LP
+- BP Products North America Inc
+- BP
+- Countrymark Refining & Logistics LLC
+- CHS McPherson Refinery Inc
+- CVR Refining CVL LLC
+- HF Sinclair El Dorado Refining LLC
+- Alon Refining Krotz Springs Inc
+- Calcasieu Refining Co
+- Calumet Cotton Valley Refining LLC
+- Calumet Princeton Refining LLC
+- Calumet Shreveport Refining LLC
+- Chalmette Refining LLC
+- Citgo Petroleum Corp
+- Excel Paralubes
+- Placid Refining Co
+- Shell Oil Products US
+- Shell
+- Valero Refining - Meraux LLC
+- Valero Refining New Orleans LLC
+- Flint Hills Resources LP
+- St Paul Park Refining Co LLC
+- Ergon Refining Inc
+- Hunt Southland Refining Co
+- Calumet Montana Refining LLC
+- Cenex Harvest States Coop
+- Par Montana LLC
+- Foreland Refining Corp
+- CPI Operations LLC
+- Paulsboro Refining Co LLC
+- HF Sinclair Navajo Refining LLC
+- Lima Refining Company
+- Ohio Refining Company LLC
+- Toledo Refining Co LLC
+- CVR Refining WYN LLC
+- HF Sinclair Tulsa Refining LLC
+- Valero Refining Co Oklahoma
+- American Refining Group Inc
+- Monroe Energy LLC
+- United Refining Co
+- Valero Ref Company Tennessee LLC
+- Alon USA Energy Inc
+- Buckeye Texas Processing LLC
+- Citgo Refining & Chemical Inc
+- Deer Park Refining LP
+- Delek Refining LTD
+- Diamond Shamrock Refining Co LP
+- Enterprise Prod Texas Operating LLC
+- Equistar Chemicals LP
+- Hartree Refining LLC
+- Houston Refining LP
+- Kinder Morgan Crude & Condensate
+- Lazarus Energy LLC
+- Magellan Processing LP
+- Motiva Enterprises LLC
+- Pasadena Performance Products LLC
+- Pasadena Refining Systems Inc
+- Petromax Refining Co LLC
+- Premcor Refining Group Inc
+- Targa Downstream LLC
+- Texas International Terminals
+- The San Antonio Refinery LLC
+- TotalEnergies Petrochem & Refg USA
+- TotalEnergies
+- Trecora Hydrocarbons LLC
+- Valero Refining Co Texas LP
+- Western Refining Company LP
+- Big West Oil Co
+- HF Sinclair Woods Cross Refining LLC
+- Silver Eagle Refining
+- HF Sinclair Puget Sound Refg LLC
+- US Oil & Refining Co
+- Ergon West Virginia Inc
+- HF Sinclair Casper Refining Company
+- HF Sinclair Wyoming Refining Co
+- Wyoming Refining Co
+- Superior Refining Company LLC
+- Long Beach Oil Development
+- California Resources Corp
+- Imperial Oil (ExxonMobil)
+- Federated Co-operatives
+- Irving Oil
+- Cenovus (ex-Husky)
+- Braya Renewable Fuels
+- Parkland Corp
+- Tidewater Midstream
+- Shell Canada
+- TC Energy
+- Trans Mountain Corp
+- Enbridge
+- Energy Transfer
+- Plains GP Holdings
+- LOOP LLC
+- Alyeska Pipeline
+- Diversos (ExxonMobil, Chevron, Pioneer, etc)
+- Continental
+- Hess
+- Whiting
+- EOG
+- Marathon
+- Anadarko/Oxy
+- PDC
+- Civitas
+- Shell/BP
+- BP/ExxonMobil
+- BP/Chevron/Hess
+- Múltiplos (Enterprise, MPL, Magellan)
+- Múltiplos (Enterprise, Magellan, etc)
+- Múltiplos (Sunoco, Energy Transfer)
+- PAA + Marathon + BP
+
+## China
+
+- Sinopec
+- PetroChina/CNPC
+- PetroChina
+- CNOOC
+- CNOOC International
+- Hengli Group
+- Rongsheng + Sinopec JV
+- Shenghong Holding
+- Yulong Petrochemical
+- Sinochem
+- Sinochem (privatizada)
+- Dongming Group
+- Lihuayi Group
+- Wonfull
+- Haike Group
+- Jincheng (privada)
+- Hualian Sunshine Group
+- Shengxing
+- Chambroad
+- Sinochem (ex-Hongrun)
+- Lijin Group
+- Shenchi
+- Xinyue
+- Luqing Petrochemical
+- Tianhong
+- Hengyuan
+- Qirun
+- Yatong
+- Huifeng
+- Zhonghai Asphalt
+- Jincheng Group
+- Yuxing
+- Baoying
+- Hualan
+- Pansteel/PSC
+- Sinopec/Saudi Aramco JV
+- Sinopec/ExxonMobil/Aramco JV
+- Shanghai International Port
+- Ningbo-Zhoushan Port
+- Qingdao Port
+- Dalian Port
+
+## Europa
+
+- BP/Rosneft/Eni/Varo JV
+- Holborn Europa Raffinerie
+- Shell/Esso/Rosneft/Phillips 66 JV
+- Rosneft Deutschland
+- Klesch Group
+- Gunvor (ex-Petroplus)
+- Saras SpA
+- ENI
+- Goi Energy/Crossbridge
+- Iplom
+- ENI/Q8 JV (RAM)
+- API Group
+- ExxonMobil/Eni
+- Petroineos
+- Repsol
+- Cepsa/Moeve
+- Repsol/Cepsa JV
+- Gunvor (ex-Kuwait Petroleum)
+- TotalEnergies/Lukoil JV
+- Varo Energy
+- Prax Group
+- Essar Oil UK
+- Galp Energia
+- HELLENiQ Energy
+- Motor Oil Hellas
+- OMV
+- MOL Group
+- Orlen Group
+- Neste Corp
+- Preem AB
+- Nynas AB
+- Equinor
+- Crossbridge Energy
+- OMV Petrom
+- Rompetrol/KMG International
+- Lukoil
+- NIS (Gazprom Neft)
+- INA (MOL)
+- Tüpraş
+- SOCAR Türkiye
+- Slavneft
+- Belorusneft
+- BOTAS
+- BOTAŞ
+- Ineos
+- Ineos/Forties Pipeline
+- TAL consortium (OMV+ENI+Shell+ExxonMobil)
+- SPSE (TotalEnergies+ENI+Esso)
+- TAL spinoff
+
+## Rússia/CEI
+
+- Rosneft
+- Rosneft (Bashneft)
+- Rosneft (Samotlorneftegaz)
+- Rosneft (ex-ExxonMobil)
+- Rosneft (Vostok Oil)
+- Lukoil (campos múltiplos)
+- Gazprom Neft
+- Salym Petroleum
+- Gazprom + Mitsui/Mitsubishi
+- Surgutneftegas
+- Tatneft
+- Novatek
+- Sberbank/private
+- Private (Marigaz)
+- Krasnodar Group
+- Safmar
+- Kuban Oil Group
+- Slavyansk-ECO Group
+- Forteinvest
+- ZAO NefteKhim
+- IFD Kapital
+- Nizhnekamskneftekhim
+- Antey Group
+- Ural Oil Group
+- KazMunayGas
+- KazMunayGas/CNPC JV
+- CITIC / KMG
+- SOCAR
+- Uzbekneftegaz
+- Türkmennebit
+- Türkmengaz
+- Ukrnafta
+- Transneft
+- Transneft/Sovcomflot
+- Transneft + outros
+- Transneft + KTK (CPC)
+- Transneft/KazTransOil
+- CNPC/KazTransOil
+- CPC consortium
+- BP-led consortium
+
+## Índia
+
+- Reliance Industries
+- Reliance + BP
+- Nayara Energy
+- Indian Oil Corp (IOC)
+- Indian Oil Corp + port
+- Bharat Petroleum (BPCL)
+- Bharat Petroleum/Oman Oil JV
+- Hindustan Petroleum (HPCL)
+- HPCL/Mittal JV
+- MRPL
+- Chennai Petroleum
+- BPCL/Oil India JV
+- ONGC
+- GAIL
+
+## Japão/Coreia
+
+- ENEOS
+- ENEOS/Showa Shell JV
+- ENEOS (ex-Mitsubishi Oil)
+- Idemitsu Kosan
+- Idemitsu/KPI/PVN JV
+- Cosmo Oil
+- Taiyo Oil
+- Fuji Oil
+- Seibu Sekiyu
+- Toa Oil
+- SK Innovation
+- SK Innovation + S-Oil
+- GS Caltex
+- S-Oil
+- HD Hyundai Oilbank
+- HD Hyundai/Shell JV
+- JX Nippon + outros
+
+## Sudeste Asiático/Oceania
+
+- CPC Corporation
+- Formosa Petrochemical
+- Chevron/PetroChina JV
+- Petronas
+- Petronas/Aramco JV
+- Petronas + Murphy + Shell
+- Petron Corp (Filipinas)
+- Petron Corp (San Miguel)
+- Hengyuan Refining (Malaysia)
+- Pertamina
+- Pertamina/Lotte JV
+- Pertamina (ex-Chevron)
+- ExxonMobil + Pertamina
+- Thaioil (PTT)
+- PTT Global Chemical
+- IEAT + PTT
+- Bangchak Corp
+- Bangchak (ex-ExxonMobil)
+- IRPC (PTT)
+- Chevron/PTT JV
+- PetroVietnam
+- Vietsovpetro
+- Hengyi Industries
+- Brunei Shell Petroleum
+- Myanmar Petrochemical Enterprise
+- MPE
+- CNPC + parceiros Myanmar
+- Pak-Arab Refinery (PARCO)
+- Attock Refinery
+- National Refinery Ltd
+- Pakistan Refinery Ltd
+- Cnergyico
+- Enar
+- Bangladesh Petroleum Corp (BPC)
+- Ceylon Petroleum Corp
+- ExxonMobil + Woodside
+- Woodside + parceiros
+
+## Oriente Médio
+
+- Saudi Aramco
+- Aramco/ExxonMobil JV
+- Aramco/TotalEnergies JV
+- Aramco/Sinopec JV
+- Aramco/Sumitomo Chem JV
+- Saudi Aramco/Bapco
+- SAR Aramco/Iraq
+- Aramco (desativado)
+- ADNOC
+- ADNOC Onshore
+- ADNOC + Inpex + ExxonMobil
+- ADNOC + CNPC + ONGC
+- ADNOC + diversos
+- Emirates National Oil Co (ENOC)
+- Star Energy Resources
+- Kuwait National Petroleum (KNPC)
+- Kuwait Oil Co. / KPC
+- KNPC/KOTC
+- Saudi-Kuwaiti JV (Chevron/KGOC)
+- NIORDC
+- Persian Gulf Star Co
+- NIORDC / CNPC
+- NIORDC / Sinopec
+- NIORDC/Aramco
+- North Refineries Company
+- MRC (Midland Refineries)
+- South Refineries Company
+- KAR Group
+- Lanaz Group
+- Basra Oil Co
+- BP / PetroChina (Basra Oil)
+- ExxonMobil/PetroChina/Basra Oil
+- Lukoil / Basra Oil
+- PetroChina (CNPC) / Basra Oil
+- ENI / Basra Oil
+- North Oil Co
+- SOMO
+- QatarEnergy
+- Orpic (OQ)
+- OQ8 (OQ/KPI)
+- PDO (Shell+TotalEnergies+Petrofac+gov)
+- PDO/OQ
+- Bahrain Petroleum Co
+- Bapco
+- Oil Refineries Ltd (Bazan)
+- Paz Oil
+- Jordan Petroleum Refinery Co
+- General Co Banias Refinery
+- Homs Refinery Co
+- Lebanese Petroleum Co
+
+## África
+
+- Sonatrach
+- Sonatrach/CNPC JV
+- Sonatrach + Eni + Anadarko/Oxy
+- Akakus
+- Mellitah Oil
+- Waha Oil
+- AGOCO
+- Egyptian General Petroleum (EGPC)
+- Carbon Holdings/Qalaa
+- Libyan Emirates Refining Co (LERCO)
+- Azzawiya Oil Refining (NOC)
+- NOC
+- Sirte Oil Co
+- NOC + parceiros
+- Sumed Pipeline Co
+- Sumed (EGPC+Aramco+Kuwait+ADNOC+Qatar)
+- Egyptian Natural Gas / EGPC
+- Dangote Petroleum
+- NNPC
+- CNPC/Niger
+- CNPC/Chad
+- Sonangol
+- Gemcorp/Sonangol
+- Sasol
+- Sasol/TotalEnergies JV
+- Engen
+- Shell/BP JV
+- Astron Energy (Glencore)
+- PetroSA
+- Samir
+- Sonara
+- Société Ivoirienne de Raffinage
+- Tema Oil Refinery
+- Kenya Petroleum
+- Sudapet/CNPC
+- Sudan Petroleum
+- Eritrea
+- Tiper
+- Shell + NNPC
+- Shell + ExxonMobil + Eni + TotalEnergies
+- TotalEnergies + CNOOC + Petrobras + Sapetro
+- Chevron + Famfa + Statoil + Petrobras
+- TotalEnergies + Sapetro + Petrobras + CNOOC
+- TotalEnergies + Statoil + ExxonMobil + BP
+- TotalEnergies + Sonangol + Statoil
+- BP + Sonangol
+- GPC + GUPCO + Apache
+
+## América Latina
+
+- Pemex
+- Petrobras
+- Petrobras/Shell/Galp/PetroGal
+- Petrobras (operadora) / CNOOC / CNPC
+- Petrobras + Shell + TotalEnergies + CNOOC + CNPC
+- Petrobras + Shell + Repsol-Sinopec
+- Petrobras + Shell + TotalEnergies + Petronas
+- Acelen (Mubadala)
+- Petrobras (ex-Atem)
+- Riograndense
+- Univen
+- Dax Oil
+- Prumo + Petrobras + outros
+- YPF
+- YPF + Vista + Tecpetrol + Pan American + outros
+- Raízen
+- Trafigura/Puma Energy
+- Axion Energy (PAE)
+- PDVSA
+- PDVSA + Chevron + outros
+- PDVSA + Chevron Petroboscan
+- PDVSA/Cubapetróleo
+- Ecopetrol
+- Ecopetrol + Oxy
+- Ecopetrol/Cenit
+- Petroperú
+- Petroperú (ex-Maple)
+- Repsol + Petroperú
+- Petroecuador
+- Petroecuador + parceiros
+- ExxonMobil + Hess + CNOOC
+- ENAP
+- OldelVal SA
+- Cubapetróleo
+- ArcLight
+- Petrojam
+- Petrotrin
+- RdK
+- CITGO (ex)
+- Refidomsa
+- ANCAP
+- YPFB
+
+## Outros (E&P internacionais com Equinor/Apache/Vopak etc.)
+
+- Equinor + Aker BP + Petoro + TotalEnergies
+- ConocoPhillips + Equinor + outros
+- Equinor + outros
+- Equinor + Petoro
+- Vår Energi
+- Equinor + Vår + Petoro
+- Apache + outros
+- BP + Shell + Chevron + ConocoPhillips
+- BP + Shell
+- Tengizchevroil
+- NCOC
+- KPO
+- BP + SOCAR + outros
+- BP + SOCAR + Lukoil + outros
+- Eni + Rosneft + BP
+- Vopak + outros
+- Suncor+Canadian Natural+Imperial+Cenovus+Syncrude
+- Imperial Oil + CNRL
+- ExxonMobil + Chevron + Suncor + outros
+- ExxonMobil + Chevron + Suncor + Equinor
+- Suncor + outros
+- ExxonMobil+TotalEnergies+PetroChina+gov
+- Enterprise + Enbridge
+- Múltiplos
+
+## Observação
+A grande maioria destas entidades é subsidiária integral, refinaria isolada, joint venture ou estatal sem calendário de RI público (ex.: refinarias americanas operadas por LLCs, NOC/SOMO/NIORDC e demais estatais, JVs de pipeline/midstream). Para essas, é normal a busca diária não encontrar nada — só atualizar quando houver fonte oficial real, e priorizar nas buscas as controladoras com ações negociadas em bolsa (ExxonMobil, Chevron, BP, Shell, TotalEnergies, ConocoPhillips, Phillips 66, Valero, Marathon Petroleum, Suncor, Cenovus, Imperial Oil, Equinor, Eni, Repsol, OMV, MOL Group, Orlen Group, Galp Energia, HELLENiQ Energy, Motor Oil Hellas, Tüpraş, Neste, Petrobras, YPF, Ecopetrol, Reliance Industries, Indian Oil Corp, Bharat Petroleum, Hindustan Petroleum, ONGC, SK Innovation, S-Oil, GS Caltex, HD Hyundai Oilbank, ENEOS, Idemitsu Kosan, Cosmo Oil, PTT/Thaioil/PTT Global Chemical/IRPC, Bangchak, Formosa Petrochemical, Sinopec, PetroChina, CNOOC, Saudi Aramco, Petronas, Pertamina).
