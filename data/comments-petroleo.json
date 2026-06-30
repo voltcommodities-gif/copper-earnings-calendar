@@ -64,5 +64,93 @@
     "extra_sources": [],
     "fingerprint": "Petrobras|2026-05-11|1T26 produção recorde 3.23Mboed pré-sal 2.66Mboed refino 95% lucro 32.7bi",
     "added_at": "2026-06-30T19:10:00Z"
+  },
+  {
+    "id": "conocophillips-2026-04-30-q1-2026-results",
+    "company": "ConocoPhillips (COP)",
+    "date": "2026-04-30",
+    "summary": "A produção total da ConocoPhillips no 1T26 ficou em 2.309 MBOED, queda de 80 MBOED a/a, impactada por paradas no Qatar ligadas ao conflito no Oriente Médio e maiores royalties em Surmont. O Lower 48 produziu 1.453 MBOED, incluindo 698 MBOED na Bacia do Delaware. Guidance de produção para o 2T26: 2,185–2,215 MMBOED. Lucro ajustado por ação de US$ 1,89.",
+    "source_type": "press_release",
+    "source_url": "https://www.businesswire.com/news/home/20260430387552/en/ConocoPhillips-announces-first-quarter-2026-results-and-quarterly-dividend",
+    "extra_sources": [],
+    "fingerprint": "ConocoPhillips|2026-04-30|1T26 produção 2309MBOED -80MBOEDaa Qatar Surmont Delaware 698MBOED guidance",
+    "added_at": "2026-06-30T20:15:00Z"
+  },
+  {
+    "id": "valero-2026-04-29-q1-2026-results",
+    "company": "Valero Energy (VLO)",
+    "date": "2026-04-29",
+    "summary": "O volume de processamento (throughput) de refino da Valero atingiu 2,9 milhões de bpd no 1T26. O resultado operacional do segmento de Refino foi de US$ 1,8 bilhão, revertendo prejuízo operacional de US$ 530 milhões no 1T25. Lucro líquido de US$ 1,3 bilhão (US$ 4,22/ação). A empresa segue com o projeto de otimização da unidade FCC na refinaria St. Charles (US$ 230 milhões), com conclusão prevista para o 3T26.",
+    "source_type": "press_release",
+    "source_url": "https://www.businesswire.com/news/home/20260429036717/en/Valero-Energy-Reports-First-Quarter-2026-Results",
+    "extra_sources": [],
+    "fingerprint": "Valero|2026-04-29|1T26 throughput 2.9Mbpd refino resultado 1.8bi reversão prejuízo lucro 1.3bi FCC StCharles",
+    "added_at": "2026-06-30T20:15:00Z"
+  },
+  {
+    "id": "phillips66-2026-04-29-q1-2026-results",
+    "company": "Phillips 66 (PSX)",
+    "date": "2026-04-29",
+    "summary": "A utilização da capacidade de refino da Phillips 66 subiu para 95% no 1T26 (ante 80% no 1T25), com rendimento de produtos limpos de 87%. A margem realizada de refino melhorou para US$ 10,11/barril (ante US$ 6,81 no 1T25). Guidance para o 2T26: utilização mundial de crude entre a faixa de 90% a mid-90s%.",
+    "source_type": "press_release",
+    "source_url": "https://investor.phillips66.com/financial-information/news-releases/news-release-details/2026/Phillips-66-Reports-First-Quarter-Results-Expanded-Capacity-and-Continued-Strong-Operations/default.aspx",
+    "extra_sources": [],
+    "fingerprint": "Phillips66|2026-04-29|1T26 utilização refino 95% margem 10.11usd-bbl guidance 2T26 90-mid90s%",
+    "added_at": "2026-06-30T20:15:00Z"
+  },
+  {
+    "id": "chevron-2026-05-01-q1-2026-results",
+    "company": "Chevron (CVX)",
+    "date": "2026-05-01",
+    "summary": "A produção mundial e nos EUA da Chevron cresceu 15% e 24% a/a, respectivamente, impulsionada pela aquisição da Hess e crescimento no Golfo da América e na Bacia Permian. O throughput das refinarias nos EUA permaneceu acima de 1 milhão de bpd pelo 5º trimestre consecutivo, com recorde em março/2026. Lucro ajustado de US$ 2,8 bilhões.",
+    "source_type": "press_release",
+    "source_url": "https://www.businesswire.com/news/home/20260501114528/en/Chevron-Reports-First-Quarter-2026-Results",
+    "extra_sources": [],
+    "fingerprint": "Chevron|2026-05-01|1T26 produção +15%mundial +24%EUA Hess Permian refino 1Mbpd recorde lucro 2.8bi",
+    "added_at": "2026-06-30T20:15:00Z"
+  },
+  {
+    "id": "suncor-2026-05-05-q1-2026-results",
+    "company": "Suncor Energy (SU)",
+    "date": "2026-05-05",
+    "summary": "A produção líquida de Synthetic Crude Oil (SCO) da Suncor foi de 519.300 bpd no 1T26, com utilização do upgrader de 96% (ante 102% no 1T25), afetada por manutenção na Syncrude (utilização de 84%). A produção total de betume das areias petrolíferas foi de 933.900 bpd, com recorde de produção em Fort Hills.",
+    "source_type": "press_release",
+    "source_url": "https://www.suncor.com/-/media/project/suncor/files/news-releases/2026/2026-05-05-news-release-earnings-q1-2026-en.pdf",
+    "extra_sources": [],
+    "fingerprint": "Suncor|2026-05-05|1T26 SCO 519.3kbpd upgrader 96% Syncrude manutenção betume 933.9kbpd Fort Hills recorde",
+    "added_at": "2026-06-30T20:15:00Z"
+  },
+  {
+    "id": "marathon-petroleum-2026-05-05-q1-2026-results",
+    "company": "Marathon Petroleum (MPC)",
+    "date": "2026-05-05",
+    "summary": "A utilização da capacidade de crude da Marathon Petroleum foi de 89% no 1T26, com throughput total de 2,9 milhões de bpd. A margem de refino e marketing (R&M) subiu para US$ 17,74/barril (ante US$ 13,38 no 1T25). Custos operacionais de refino de US$ 6,23/barril. Guidance de throughput para o 2T26: 2,99 milhões de bpd.",
+    "source_type": "press_release",
+    "source_url": "https://www.prnewswire.com/news-releases/marathon-petroleum-corp-reports-first-quarter-2026-results-302762467.html",
+    "extra_sources": [],
+    "fingerprint": "Marathon Petroleum|2026-05-05|1T26 utilização 89% throughput 2.9Mbpd margem RM 17.74usd-bbl guidance 2.99M",
+    "added_at": "2026-06-30T20:15:00Z"
+  },
+  {
+    "id": "saudi-aramco-2026-05-10-q1-2026-results",
+    "company": "Saudi Aramco (2222.SE)",
+    "date": "2026-05-10",
+    "summary": "A produção total de hidrocarbonetos da Saudi Aramco atingiu 12,6 milhões de boe/dia no 1T26 (ante 12,3 milhões no 1T25), com líquidos em 10,6 milhões de bpd, apesar do enquadramento de produção da OPEP+. O Oleoduto East-West atingiu capacidade máxima de 7,0 milhões de bpd no trimestre. Lucro líquido ajustado de US$ 33,6 bilhões.",
+    "source_type": "press_release",
+    "source_url": "https://www.aramco.com/en/news-media/news/2026/aramco-announces-first-quarter-2026-results",
+    "extra_sources": [],
+    "fingerprint": "Saudi Aramco|2026-05-10|1T26 produção 12.6Mboed líquidos 10.6Mbpd East-West 7.0Mbpd lucro 33.6bi",
+    "added_at": "2026-06-30T20:15:00Z"
+  },
+  {
+    "id": "petrochina-2026-04-30-q1-2026-results",
+    "company": "PetroChina (601857.SS)",
+    "date": "2026-04-30",
+    "summary": "A produção de óleo e gás da PetroChina foi de 470,2 milhões de boe no 1T26 (+0,7% a/a). O processamento de petróleo bruto atingiu 343 milhões de barris (+1,7% a/a), com produção de 28,55 milhões de toneladas de derivados.",
+    "source_type": "press_release",
+    "source_url": "https://www.petrochina.com.cn/ptr/xwxx/202604/31b49829e4d541f187b5a78ab99e1ba6/files/b42513140d854565898fcadcdb232643.pdf",
+    "extra_sources": [],
+    "fingerprint": "PetroChina|2026-04-30|1T26 produção 470.2Mboe +0.7%aa processamento 343Mbbl derivados 28.55Mt",
+    "added_at": "2026-06-30T20:15:00Z"
   }
 ]
