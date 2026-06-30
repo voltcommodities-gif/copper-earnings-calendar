@@ -294,9 +294,13 @@ main{
   flex-direction:column;
   gap:8px;
 }
-.load-more-btn{
-  align-self:center;
+.load-more-bar{
+  display:flex;
+  justify-content:center;
+  gap:10px;
   margin-top:4px;
+}
+.load-more-btn{
   border:1px solid var(--navy);
   background:var(--white);
   color:var(--navy);
@@ -306,6 +310,10 @@ main{
   padding:8px 18px;
   border-radius:3px;
   cursor:pointer;
+}
+.load-less-btn{
+  border-color:var(--grey);
+  color:var(--grey);
 }
 .load-more-btn:hover{
   background:var(--navy);

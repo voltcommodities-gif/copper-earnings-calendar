@@ -86,16 +86,35 @@ function renderColumn(key, filterDate, targetId, showAll){
   feed.innerHTML = renderFeedHtml(visibleItems, filterDate);
   setupReadMoreButtons(feed);
 
-  if(!showAll && items.length > limit){
-    const btn = document.createElement('button');
-    btn.className = 'load-more-btn';
-    btn.type = 'button';
-    btn.textContent = 'Carregar mais (' + (items.length - limit) + ')';
-    btn.addEventListener('click', () => {
-      visibleCounts[key] = limit + PAGE_SIZE;
-      renderColumn(key, filterDate, targetId, showAll);
-    });
-    feed.appendChild(btn);
+  if(!showAll && (items.length > limit || limit > PAGE_SIZE)){
+    const bar = document.createElement('div');
+    bar.className = 'load-more-bar';
+
+    if(items.length > limit){
+      const more = document.createElement('button');
+      more.className = 'load-more-btn';
+      more.type = 'button';
+      more.textContent = 'Carregar mais (' + (items.length - limit) + ')';
+      more.addEventListener('click', () => {
+        visibleCounts[key] = limit + PAGE_SIZE;
+        renderColumn(key, filterDate, targetId, showAll);
+      });
+      bar.appendChild(more);
+    }
+
+    if(limit > PAGE_SIZE){
+      const less = document.createElement('button');
+      less.className = 'load-more-btn load-less-btn';
+      less.type = 'button';
+      less.textContent = 'Carregar menos';
+      less.addEventListener('click', () => {
+        visibleCounts[key] = PAGE_SIZE;
+        renderColumn(key, filterDate, targetId, showAll);
+      });
+      bar.appendChild(less);
+    }
+
+    feed.appendChild(bar);
   }
 }
 
