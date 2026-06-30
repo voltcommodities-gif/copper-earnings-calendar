@@ -18,6 +18,9 @@ const events = {
   "2026-08-05": [
     { co: "Glencore (GLEN)", desc: "Resultado do 1º semestre de 2026" }
   ],
+  "2026-08-06": [
+    { co: "Aurubis (NDA)", desc: "Relatório dos primeiros 9 meses do exercício fiscal 2025/26" }
+  ],
   "2026-08-13": [
     { co: "Antofagasta plc (ANTO)", desc: "Resultado do 1º semestre de 2026" }
   ],
