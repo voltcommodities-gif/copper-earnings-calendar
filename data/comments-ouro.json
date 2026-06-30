@@ -9,5 +9,104 @@
     "extra_sources": [],
     "fingerprint": "Harmony Gold|2026-06-30|FY26 pré-close 1.4-1.5Moz guidance 11anos 5.80g-t receita 68.385bi caixa líquido",
     "added_at": "2026-06-30T19:10:00Z"
+  },
+  {
+    "id": "newmont-2026-04-23-q1-2026-results",
+    "company": "Newmont Corporation (NEM)",
+    "date": "2026-04-23",
+    "summary": "A Newmont reportou recorde de lucro e fluxo de caixa livre no 1T26. Produção atribuível de ouro somou 1,3 Moz (queda de ~15,6% a/a frente 1,54 Moz; -10% t/t frente 1,45 Moz no 4T25), com AISC de US$ 1.029/oz. Preço realizado médio do ouro de US$ 4.900/oz. Receita subiu 46% a/a para US$ 7,31 bilhões; empresa reafirma guidance anual de 5,3 Moz de ouro atribuível.",
+    "source_type": "press_release",
+    "source_url": "https://www.newmont.com/investors/news-release/news-details/2026/Newmont-Generates-Record-Quarterly-Earnings-and-Free-Cash-Flow-Reports-First-Quarter-2026-Results-and-Announces-Increased-Share-Repurchase-Authorization/default.aspx",
+    "extra_sources": [],
+    "fingerprint": "Newmont|2026-04-23|1T26 produção 1.3Moz -15.6%aa AISC 1029usd-oz preço 4900usd receita 7.31bi guidance 5.3Moz",
+    "added_at": "2026-06-30T21:00:00Z"
+  },
+  {
+    "id": "barrick-mining-2026-05-11-q1-2026-results",
+    "company": "Barrick Mining Corporation (B)",
+    "date": "2026-05-11",
+    "summary": "A produção de ouro da Barrick no 1T26 somou 719 mil oz, superando o guidance de 640–680 mil oz, impulsionada por Nevada Gold Mines, Veladero e ramp-up de Loulo-Gounkoto. AISC de US$ 1.708/oz, queda de 4% a/a. Preço realizado de US$ 4.823/oz. Guidance anual de produção mantido em 2,90–3,25 Moz, com 730–770 mil oz esperados no 2T26.",
+    "source_type": "press_release",
+    "source_url": "https://www.barrick.com/English/news/news-details/2026/q1-2026-results/default.aspx",
+    "extra_sources": [],
+    "fingerprint": "Barrick Mining|2026-05-11|1T26 produção 719koz acima guidance AISC 1708usd-oz preço 4823usd guidance 2.90-3.25Moz",
+    "added_at": "2026-06-30T21:00:00Z"
+  },
+  {
+    "id": "agnico-eagle-2026-04-30-q1-2026-results",
+    "company": "Agnico Eagle Mines (AEM)",
+    "date": "2026-04-30",
+    "summary": "A produção pagável de ouro da Agnico Eagle foi de 825.109 oz no 1T26 (~24% do ponto médio do guidance anual). Custos de produção de US$ 1.158/oz, custo caixa total de US$ 1.093/oz e AISC de US$ 1.483/oz. Margens operacionais e lucro líquido ajustado recordes no trimestre. Guidance anual mantido em 3,3–3,5 Moz, com AISC de US$ 1.400–1.550/oz.",
+    "source_type": "press_release",
+    "source_url": "https://www.prnewswire.com/news-releases/agnico-eagle-reports-first-quarter-2026-results-including-record-quarterly-operating-margins-and-adjusted-net-income-302759259.html",
+    "extra_sources": [],
+    "fingerprint": "Agnico Eagle|2026-04-30|1T26 produção 825109oz custo 1158usd-oz AISC 1483usd-oz guidance 3.3-3.5Moz",
+    "added_at": "2026-06-30T21:00:00Z"
+  },
+  {
+    "id": "anglogold-ashanti-2026-05-08-q1-2026-results",
+    "company": "AngloGold Ashanti (AU)",
+    "date": "2026-05-08",
+    "summary": "A produção de ouro do grupo AngloGold Ashanti ficou praticamente estável em 724 mil oz no 1T26 (+1% a/a frente 720 mil oz), com operações geridas contribuindo 666 mil oz. Custo caixa total subiu para US$ 1.391/oz (vs. US$ 1.223/oz no 1T25) e AISC total atingiu US$ 1.405 milhões. Fluxo de caixa livre recorde de US$ 1,2 bilhão (quase triplo do 1T25) e EBITDA de US$ 2,3 bilhões.",
+    "source_type": "press_release",
+    "source_url": "https://www.businesswire.com/news/home/20260508397177/en/AngloGold-Ashanti-Q1-31-March-2026-Earnings-Release-and-Dividend-Declaration",
+    "extra_sources": [],
+    "fingerprint": "AngloGold Ashanti|2026-05-08|1T26 produção 724koz +1%aa custo caixa 1391usd-oz FCF recorde 1.2bi EBITDA 2.3bi",
+    "added_at": "2026-06-30T21:00:00Z"
+  },
+  {
+    "id": "kinross-gold-2026-04-29-q1-2026-results",
+    "company": "Kinross Gold (KGC)",
+    "date": "2026-04-29",
+    "summary": "A produção da Kinross Gold foi de 492.563 oz eq. ouro no 1T26, queda planejada de 4% a/a (vs. 512.088 oz no 1T25); maior produção em Paracatu compensada parcialmente por quedas em Bald Mountain, Fort Knox e Round Mountain. AISC atribuível de US$ 1.732/oz (vs. US$ 1.355/oz no 1T25). Margem recorde de US$ 3.476/oz vendida (+92% a/a). Guidance anual mantido em 2,0 Moz eq. ouro (±5%) com AISC de US$ 1.730/oz (±5%).",
+    "source_type": "press_release",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/0000701818/000117184326002835/exh_991.htm",
+    "extra_sources": [],
+    "fingerprint": "Kinross Gold|2026-04-29|1T26 produção 492563oz -4%aa AISC 1732usd-oz margem recorde 3476usd guidance 2.0Moz",
+    "added_at": "2026-06-30T21:00:00Z"
+  },
+  {
+    "id": "gold-fields-2026-05-07-q1-2026-results",
+    "company": "Gold Fields (GFI)",
+    "date": "2026-05-07",
+    "summary": "A produção equivalente em ouro da Gold Fields foi de 633 mil oz no 1T26, alta de 15% a/a mas queda de 7% t/t. AISC subiu 13% a/a para US$ 1.829/oz e AIC para US$ 2.046/oz, pressionados por royalties mais altos, insumos (diesel +30–70% pós-conflito no Irã) e câmbio. Dívida líquida caiu 34% a/a para US$ 1.304 milhões. Guidance anual: 2,40–2,60 Moz com AISC de US$ 1.800–2.000/oz.",
+    "source_type": "press_release",
+    "source_url": "https://www.stocktitan.net/sec-filings/GFI/6-k-gold-fields-ltd-current-report-foreign-issuer-3140bb35cc6a.html",
+    "extra_sources": [],
+    "fingerprint": "Gold Fields|2026-05-07|1T26 produção 633koz +15%aa AISC 1829usd-oz +13%aa dívida -34%aa guidance 2.40-2.60Moz",
+    "added_at": "2026-06-30T21:00:00Z"
+  },
+  {
+    "id": "endeavour-mining-2026-04-30-q1-2026-results",
+    "company": "Endeavour Mining (EDV)",
+    "date": "2026-04-30",
+    "summary": "A produção da Endeavour Mining no 1T26 foi de 282 mil oz a AISC de US$ 1.834/oz, com preço realizado de US$ 4.810/oz. EBITDA ajustado recorde de US$ 880 milhões (+29% t/t) e fluxo de caixa livre recorde de US$ 613 milhões (US$ 2.176/oz produzida). Guidance anual mantido, com performance concentrada no 2S26. Posição de caixa líquido de US$ 405 milhões.",
+    "source_type": "press_release",
+    "source_url": "https://www.endeavourmining.com/news-and-media/news/endeavour-reports-strong-q1-2026-results/",
+    "extra_sources": [],
+    "fingerprint": "Endeavour Mining|2026-04-30|1T26 produção 282koz AISC 1834usd-oz EBITDA recorde 880mi FCF recorde 613mi",
+    "added_at": "2026-06-30T21:00:00Z"
+  },
+  {
+    "id": "lundin-gold-2026-05-06-q1-2026-results",
+    "company": "Lundin Gold (LUG) — Fruta del Norte",
+    "date": "2026-05-06",
+    "summary": "A produção de ouro da Lundin Gold (Fruta del Norte) foi de 119.742 oz no 1T26, vendas de 115.308 oz a preço realizado recorde de US$ 4.951/oz (receita de US$ 567 milhões). Taxa de processamento recorde de 5.520 t/dia, com teor médio de 8,4 g/t e recuperação de 89,2%. Custo caixa de US$ 987/oz e AISC de US$ 1.114/oz. Fluxo de caixa livre recorde de US$ 349 milhões. Guidance anual mantido: 475–525 mil oz a AISC de US$ 1.110–1.170/oz.",
+    "source_type": "press_release",
+    "source_url": "https://lundingold.com/news/lundin-gold-reports-first-quarter-2026-results-122846/",
+    "extra_sources": [],
+    "fingerprint": "Lundin Gold|2026-05-06|1T26 produção 119742oz preço recorde 4951usd teor 8.4g-t AISC 1114usd-oz guidance 475-525koz",
+    "added_at": "2026-06-30T21:00:00Z"
+  },
+  {
+    "id": "harmony-gold-2026-05-18-nine-months-update",
+    "company": "Harmony Gold Mining (HMY/HAR)",
+    "date": "2026-05-18",
+    "summary": "Atualização operacional dos nove meses encerrados em 31/mar/2026 (Form 6-K): produção trimestral (Q3FY26) subiu 5% t/t para 349.511 oz; no acumulado de nove meses, produção total caiu 3% para 1.073.610 oz. Teor recuperado underground em 5,85 g/t, acima do guidance. AISC subiu 14% para US$ 2.133/oz. A empresa segue no caminho para cumprir o guidance anual pelo 11º ano consecutivo.",
+    "source_type": "press_release",
+    "source_url": "https://www.stocktitan.net/sec-filings/HMY/6-k-harmony-gold-mining-co-ltd-current-report-foreign-issuer-0113d3f4c690.html",
+    "extra_sources": [],
+    "fingerprint": "Harmony Gold|2026-05-18|9meses produção 1073610oz -3% Q3 349511oz +5%tt grade 5.85g-t AISC 2133usd-oz",
+    "added_at": "2026-06-30T21:00:00Z"
   }
 ]
