@@ -1,0 +1,156 @@
+# Lista de empresas/grupos a monitorar — Alumínio Earnings Calendar
+
+Verificar diariamente se alguma destas empresas anunciou oficialmente (via comunicado de RI, RNS, SEC/6-K, ou calendário financeiro oficial) uma nova data de divulgação de resultados/relatório de produção. Só adicionar ao calendário (data/events-aluminio.js) quando houver fonte oficial confirmada — nunca estimar ou inferir datas.
+
+Lista cobre mineração de bauxita, refinarias de alumina, smelters e terminais/portos, sem distinção de categoria.
+
+- Rio Tinto
+- Alcoa (AWAC: Alcoa 60% / Alumina Ltd 40%)
+- South32 (86%)
+- SMB Consortium
+- CBG — Halco Mining
+- Nimba Mining SA
+- Chalco Guinea Company SA
+- RUSAL / Compagnie des Bauxites de Dian-Dian
+- Compagnie des Bauxites de Kindia (RUSAL)
+- RUSAL / Alumina Company of Guinea (Fria)
+- Alufer Mining / Metro Mining
+- AMR (Winning/UMS)
+- AGB2A Consortium
+- Ashapura Minechem
+- Mineração Rio do Norte (Glencore/South32/Rio Tinto)
+- Hydro (ex-Vale)
+- CBA (Votorantim Cimentos)
+- Chinalco (Chalco)/Xinfa/diversos
+- Chinalco/East Hope/Wanji/diversos
+- Hongqiao/Xinfa/Nanshan
+- NALCO
+- Vedanta Resources
+- Hindalco (Utkal Alumina)
+- BALCO (Vedanta)
+- PT Antam/diversos
+- Well Harvest Winning (WHW - China Hongqiao)
+- PT Bintan Alumina Indonesia
+- New Day Aluminum (ex-Noranda Jamaica Bauxite Partners)
+- Jamalco (General Alumina Jamaica)
+- Windalco (Gov. Jamaica/ex-RUSAL)
+- RUSAL (via Komi Aluminium)
+- Vinacomin/TKV
+- Mytilineos (Aluminium of Greece)
+- ERG (Eurasian Resources Group)
+- Ghana Bauxite Company (Bosai Minerals)
+- Ghana Integrated Aluminium Development Corp (GIADEC)
+- Sierra Minerals Holdings/Vimetco
+- Ma'aden
+- Eti Alüminyum
+- Staatsolie
+- Hungarian Aluminium Kft (ex-MAL)
+- Norsk Hydro (Alunorte)
+- Alcoa 54% (AWAC)/South32 36%/Rio Tinto 10%
+- Hindustan Aluminium 66.67%/Novelis 33.33%
+- Rio Tinto 80%/RUSAL 20%
+- South32 86%/Japan Alumina 10%/Sojitz 4%
+- Chinalco (10 unidades distintas listadas)
+- China Hongqiao Group
+- Shandong Xinfa Group
+- Shandong Nanshan Aluminium
+- Kaiman Aluminium
+- Luneng Group
+- Hindalco (Aditya Birla)
+- Penna Group/KCap Holdings
+- Hindalco (Indal)
+- Vedanta (ex-Malco/Sterlite)
+- EGA (Emirates Global Aluminium) 100%
+- Ma'aden 74.9%/Alcoa 25.1%
+- General Alumina Jamaica LLC
+- RUSAL 65%/Hydro Aluminium 35%
+- North-West Aluminium (RUSAL)
+- Mytilineos 100%
+- Dadco Alumina/AOS (ex-VAW)
+- PT Indonesia Chemical Alumina (Antam/Showa Denko)
+- Iranian Aluminium Co. (IRALCO)
+- Energoinvest Alumina
+- Corporación Venezolana de Guayana
+- Alro SA (Vimetco)
+- Silkem Hungary
+- Alteo (ex-Rio Tinto Alcan)
+- Aluminium Bahrain (Alba)
+- RUSAL (11 unidades distintas listadas)
+- Chinalco (mais 10+ unidades)
+- Huomei Hongjun
+- Easthope Group
+- Inner Mongolia Dongfang Xiwang
+- Xinfa Group
+- Qingtongxia Aluminum
+- East Hope Group
+- Yunnan Aluminium (Chinalco)
+- Huanghe Hydropower (SPIC)
+- Henan Wanji Aluminum
+- Zhengzhou Laiwosi Aluminum
+- Emeishan Aluminium
+- Consortium (Hydro 20%, AMAG 20%, Marubeni 13.3%)
+- Rio Tinto (várias unidades)
+- Alcoa 74.9%/Rio Tinto 25.1%
+- NALCO (smelter)
+- Hindalco (Aditya Aluminium, Mahan Aluminium)
+- Norsk Hydro (várias unidades)
+- Century Aluminum
+- Rio Tinto 73,5%
+- Rio Tinto 51.55%/Gove 36%/Hydro 12.4%
+- Hydro 51%/NAAC 49%
+- Alcoa 60%/South32 40%
+- Hydro 50%/QP 50%
+- OQ (40%)/TAQA (40%)/Rio Tinto (20%)
+- South32 47.1%/Mitsubishi 25%/IDC 24%/Gov. 3.9%
+- Aluar Aluminio Argentino
+- Press Metal Group
+- Rio Tinto 100% (Sumitomo)
+- Magnitude 7 Metals (ex-Noranda)
+- Speira (ex-Norsk Hydro)
+- Trimet Aluminium SE
+- ALVANCE (ex-Liberty/GFG)
+- Trimet 65%/EDF 35%
+- Tajik Aluminium Co. (TALCO)
+- Aluminium Co. of Egypt
+- PT Inalum (MIND ID)
+- Hormozgan Aluminium
+- Al-Mahdi Aluminium Corp.
+- Volta Aluminium Co. (Gov. Gana)
+- Alucam (Rio Tinto/Gov. Camarões)
+- CVG (Gov. Venezuela)
+- CBG/GAC/RUSAL
+- SMB-Winning
+- Port Autonome de Conakry
+- Gladstone Ports Corp
+- Bunbury Port Authority
+- Kwinana Bulk Terminal
+- CDP/Hydro
+- MRN
+- EMAP/Alumar
+- Santos Port Authority
+- Visakhapatnam Port Trust
+- Paradip Port Trust
+- Qingdao Port Group
+- Yantai Port Group
+- Longkou Port
+- Zhanjiang Port Group
+- Tianjin Port Group
+- Rizhao Port Group
+- DP World
+- ADPC
+- Saudi Ports Authority
+- Port of Sept-Îles
+- Rio Tinto/Saguenay Port
+- Transnet Port Terminals
+- MPDC
+- PT Pelindo I
+- Shahid Rajaee Port
+- Qatar Ports Management
+- Bintulu Port Authority
+- Sohar Port
+- South Port NZ
+- Stade Port (Elbe)
+- Port de Dunkerque
+
+## Observação
+Boa parte destas entidades é subsidiária integral, joint venture, porto/terminal operado por autoridade portuária ou estatal sem calendário de RI público (ex.: consórcios de mineração, autoridades portuárias, empresas estatais como CVG, IRALCO, Staatsolie). Para essas, é normal a busca diária não encontrar nada — só atualizar quando houver fonte oficial real, e priorizar nas buscas as controladoras com ações negociadas em bolsa (Rio Tinto, Alcoa, South32, Norsk Hydro, Vedanta Resources, Hindalco/Aditya Birla, NALCO, China Hongqiao Group, Chalco/Chinalco, Century Aluminum, Mytilineos, EGA, Ma'aden, Press Metal Group, Aluminium Bahrain (Alba), PT Inalum).

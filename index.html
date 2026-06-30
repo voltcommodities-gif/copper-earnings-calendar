@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Commodities Earnings Calendar</title>
-<link rel="stylesheet" href="style.css?v=2">
+<link rel="stylesheet" href="style.css?v=3">
 </head>
 <body>
 
@@ -36,7 +36,8 @@
     <div class="legend">
       Datas confirmadas oficialmente pelas próprias empresas (calendário de RI, RNS ou comunicado SEC/6-K).<br>
       <span class="legend-swatch legend-swatch-cobre"></span> Cobre &nbsp;&nbsp;
-      <span class="legend-swatch legend-swatch-petroleo"></span> Petróleo<br>
+      <span class="legend-swatch legend-swatch-petroleo"></span> Petróleo &nbsp;&nbsp;
+      <span class="legend-swatch legend-swatch-aluminio"></span> Alumínio<br>
       Pesquisado em 26/06/2026.
     </div>
   </div>
@@ -58,6 +59,13 @@
       <div class="column">
         <div class="column-header column-header-petroleo">Petróleo</div>
         <div class="feed" id="feed-petroleo">
+          <div class="feed-empty">Carregando...</div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="column-header column-header-aluminio">Alumínio</div>
+        <div class="feed" id="feed-aluminio">
           <div class="feed-empty">Carregando...</div>
         </div>
       </div>
@@ -87,11 +95,12 @@
     viewCalendar.classList.remove('active');
   });
 </script>
-<script src="commodities.js?v=2"></script>
-<script src="data/events-cobre.js?v=2"></script>
-<script src="data/events-petroleo.js?v=2"></script>
-<script src="calendar.js?v=2"></script>
-<script src="comments.js?v=2"></script>
+<script src="commodities.js?v=3"></script>
+<script src="data/events-cobre.js?v=3"></script>
+<script src="data/events-petroleo.js?v=3"></script>
+<script src="data/events-aluminio.js?v=3"></script>
+<script src="calendar.js?v=3"></script>
+<script src="comments.js?v=3"></script>
 
 </body>
 </html>

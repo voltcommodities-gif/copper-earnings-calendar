@@ -13,5 +13,11 @@ const COMMODITIES = {
     color: "#3d1f5c",
     eventsVar: "petroleoEvents",
     commentsFile: "data/comments-petroleo.json"
+  },
+  aluminio: {
+    label: "Alumínio",
+    color: "#1f5c4d",
+    eventsVar: "aluminioEvents",
+    commentsFile: "data/comments-aluminio.json"
   }
 };
