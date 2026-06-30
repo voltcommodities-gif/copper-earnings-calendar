@@ -1,7 +1,8 @@
 const sourceTypeLabels = {
   earnings_call: "Earnings Call",
-  press_release: "Press Release",
+  press_release: "Resultados",
   operational_report: "Relatório Operacional",
+  investor_presentation: "Apresentação",
   interview: "Entrevista"
 };
 
