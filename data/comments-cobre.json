@@ -1,1 +1,145 @@
-[]
+[
+  {
+    "id": "rio-tinto-2026-04-20-q1-2026-production",
+    "company": "Rio Tinto (RIO)",
+    "date": "2026-04-20",
+    "summary": "A Rio Tinto produziu 229 kt de cobre consolidado no 1T26, alta de 9% a/a, impulsionada pelo ramp-up contínuo de Oyu Tolgoi (minério em concentrado +56% a/a, 102 kt). Escondida (concentrado) caiu 14% a/a para 77 kt; Kennecott (metal refinado) caiu 20% a/a para 34 kt devido a manutenção não planejada na fundição. Guidance anual mantida em 800–870 kt.",
+    "source_type": "press_release",
+    "source_url": "https://www.riotinto.com/en/news/releases/2026/rio-tinto-releases-first-quarter-2026-production-results",
+    "extra_sources": [],
+    "fingerprint": "Rio Tinto|2026-04-20|1T26 cobre 229kt +9%aa Oyu Tolgoi +56% Escondida -14% guidance 800-870kt",
+    "added_at": "2026-06-30T20:00:00Z"
+  },
+  {
+    "id": "bhp-2026-04-21-operational-review-9m",
+    "company": "BHP Group (BHP)",
+    "date": "2026-04-21",
+    "summary": "No relatório operacional dos 9 meses encerrados em 31/mar/2026, a BHP destacou throughput recorde do concentrador em Escondida e recuperações melhoradas, compensando teores menores — guidance de Escondida mantida em 1,2–1,275 Mt para o ano. A guidance de cobre do grupo foi apontada para a metade superior da faixa de 1,9–2,0 Mt.",
+    "source_type": "press_release",
+    "source_url": "https://www.bhp.com/news/media-centre/releases/2026/04/bhp-operational-review-for-the-nine-months-ended-31-march-2026",
+    "extra_sources": [],
+    "fingerprint": "BHP|2026-04-21|9M26 Escondida throughput recorde guidance 1.2-1.275Mt grupo 1.9-2.0Mt metade superior",
+    "added_at": "2026-06-30T20:00:00Z"
+  },
+  {
+    "id": "freeport-mcmoran-2026-04-22-q1-2026-results",
+    "company": "Freeport-McMoRan (FCX)",
+    "date": "2026-04-22",
+    "summary": "O custo unitário de caixa líquido por libra de cobre da Freeport-McMoRan foi de US$ 1,91/lb no 1T26. A guidance de custo unitário para o ano inteiro foi revisada de US$ 1,75/lb para US$ 1,95/lb, refletindo volumes menores em Grasberg e maiores custos de diesel. O preço do cobre atingiu máxima histórica acima de US$ 6,00/lb durante o trimestre. Receita total de US$ 6,23 bilhões; lucro líquido de US$ 881 milhões.",
+    "source_type": "press_release",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/0000831259/000083125926000021/a1q2026exhibit991.htm",
+    "extra_sources": [],
+    "fingerprint": "Freeport-McMoRan|2026-04-22|1T26 custo 1.91usd-lb guidance revisada 1.95usd-lb Grasberg receita 6.23bi",
+    "added_at": "2026-06-30T20:00:00Z"
+  },
+  {
+    "id": "teck-resources-2026-04-23-q1-2026-results",
+    "company": "Teck Resources (TECK)",
+    "date": "2026-04-23",
+    "summary": "A Teck produziu 140.000 t de cobre no 1T26 (vs. 106.100 t no 1T25). A Quebrada Blanca (QB) produziu 55.500 t (vs. 42.300 t no 1T25, que teve parada prolongada), com vendas recordes de 70.300 t no trimestre. O custo unitário de caixa líquido da QB caiu para US$ 2,27/lb (vs. US$ 2,66/lb no 1T25). Guidance anual de cobre mantida: 455.000–530.000 t a US$ 1,85–2,20/lb.",
+    "source_type": "press_release",
+    "source_url": "https://www.teck.com/news/news-releases/2026/teck-reports-unaudited-first-quarter-results-for-2026",
+    "extra_sources": [],
+    "fingerprint": "Teck Resources|2026-04-23|1T26 cobre 140kt QB 55.5kt vendas recorde custo 2.27usd-lb guidance 455-530kt",
+    "added_at": "2026-06-30T20:00:00Z"
+  },
+  {
+    "id": "anglo-american-2026-04-28-q1-2026-production",
+    "company": "Anglo American (AAL)",
+    "date": "2026-04-28",
+    "summary": "A produção de cobre da Anglo American cresceu 1% no 1T26 para 170.400 t, com Los Bronces e Collahuasi compensando teores menores em Quellaveco. Em Collahuasi, a produção atribuível subiu 10% para 38.800 t, com recuperação melhorando para 71,8% (vs. 66,2%) apesar de teor menor (0,77% vs. 0,86%). Guidance anual mantida: 700.000–760.000 t a custo unitário de ~172 c/lb.",
+    "source_type": "press_release",
+    "source_url": "https://www.angloamerican.com/media/press-releases/2026/28-04-2026",
+    "extra_sources": [],
+    "fingerprint": "Anglo American|2026-04-28|1T26 cobre 170.4kt +1% Collahuasi +10% guidance 700-760kt custo 172c-lb",
+    "added_at": "2026-06-30T20:00:00Z"
+  },
+  {
+    "id": "first-quantum-2026-04-28-q1-2026-results",
+    "company": "First Quantum Minerals (FM)",
+    "date": "2026-04-28",
+    "summary": "A First Quantum elevou a guidance de cobre de 2026 para 375.000–470.000 t (excluindo Cobre Panamá). Em Cobre Panamá, a empresa obteve aprovação formal para retomar o processamento de estoque (70.000 t esperadas), com produção de cobre prevista para o final do 2T26; custos de preservação de ~US$ 16 milhões/mês registrados no 1T26.",
+    "source_type": "press_release",
+    "source_url": "https://www.first-quantum.com/news/first-quantum-minerals-reports-first-quarter-2026-results/",
+    "extra_sources": [],
+    "fingerprint": "First Quantum|2026-04-28|guidance elevada 375-470kt Cobre Panama retomada processamento 70kt 2T26",
+    "added_at": "2026-06-30T20:00:00Z"
+  },
+  {
+    "id": "boliden-2026-04-28-q1-2026-interim-report",
+    "company": "Boliden (BOL)",
+    "date": "2026-04-28",
+    "summary": "A mina Aitik da Boliden processou 9,8 Mt no trimestre com teores de cobre ligeiramente menores mas robustos; guidance anual mantida em 41 Mt a 0,18% Cu. A divisão de fundição (Rönnskär) registrou estabilidade operacional melhorada. O preço do cobre subiu 38% a/a no período. Lucro operacional ex-revalorização de estoque de SEK 4.432 milhões (+70% a/a).",
+    "source_type": "investor_presentation",
+    "source_url": "https://investors.boliden.com/sites/boliden-ir/files/pr/Boliden_Q1_2026_presentation_0.pdf",
+    "extra_sources": [],
+    "fingerprint": "Boliden|2026-04-28|1T26 Aitik 9.8Mt guidance 41Mt 0.18%Cu preço cobre +38%aa lucro operacional 4432MSEK",
+    "added_at": "2026-06-30T20:00:00Z"
+  },
+  {
+    "id": "antofagasta-2026-04-15-q1-2026-production",
+    "company": "Antofagasta plc (ANTO)",
+    "date": "2026-04-15",
+    "summary": "A produção de cobre da Antofagasta caiu 8% a/a no 1T26 para 143.000 t, devido a menor taxa de processamento e teores menores conforme plano de lavra em Los Pelambres e Centinela. Guidance anual mantida: 650.000–700.000 t. Custo caixa mantido em US$ 2,30–2,50/lb (antes de subprodutos) e US$ 1,15–1,35/lb (após subprodutos).",
+    "source_type": "press_release",
+    "source_url": "https://www.antofagasta.co.uk/investors/news/2026/q1-2026-quarterly-production-report/",
+    "extra_sources": [],
+    "fingerprint": "Antofagasta|2026-04-15|1T26 cobre 143kt -8%aa guidance 650-700kt custo 2.30-2.50usd-lb",
+    "added_at": "2026-06-30T20:00:00Z"
+  },
+  {
+    "id": "glencore-2026-04-30-q1-2026-production",
+    "company": "Glencore (GLEN)",
+    "date": "2026-04-30",
+    "summary": "A produção própria de cobre da Glencore foi de 199.600 t no 1T26, alta de 19% (+31.700 t) vs. 1T25, impulsionada por teores melhores no cobre africano (+27.400 t) e maior throughput/teor em Antamina (+13.500 t), parcialmente compensados pelo fim da mineração de cobre em Mount Isa (-8.900 t). Guidance anual mantida inalterada.",
+    "source_type": "press_release",
+    "source_url": "https://www.glencore.com/media-and-insights/news/first-quarter-2026-production-report",
+    "extra_sources": [],
+    "fingerprint": "Glencore|2026-04-30|1T26 cobre 199.6kt +19%aa cobre africano +27.4kt Antamina +13.5kt Mount Isa fim",
+    "added_at": "2026-06-30T20:00:00Z"
+  },
+  {
+    "id": "capstone-copper-2026-04-29-q1-2026-results",
+    "company": "Capstone Copper (CS)",
+    "date": "2026-04-29",
+    "summary": "A produção sulfeto total da Capstone Copper foi de 40.875 t de cobre em concentrado no 1T26, queda de 11% a/a (vs. 45.950 t), por causa de greve de 35 dias em Mantoverde (jan–5/fev/2026; produção -16% para 19.018 t). Cozamin produziu 5.930 t a custo C1 recorde baixo de US$ 0,71/lb. C1 consolidado sulfeto de US$ 2,18/lb (-2% a/a).",
+    "source_type": "press_release",
+    "source_url": "https://capstonecopper.com/news/capstone-copper-reports-first-quarter-2026-results/",
+    "extra_sources": [],
+    "fingerprint": "Capstone Copper|2026-04-29|1T26 sulfeto 40.875t -11%aa Mantoverde greve 35dias Cozamin C1 0.71usd-lb",
+    "added_at": "2026-06-30T20:00:00Z"
+  },
+  {
+    "id": "hudbay-minerals-2026-05-01-q1-2026-results",
+    "company": "Hudbay Minerals (HBM)",
+    "date": "2026-05-01",
+    "summary": "A mina Constancia (Peru) da Hudbay produziu 20.573 t de cobre no 1T26 a custo caixa de US$ 0,70/lb, com throughput recorde de 90.700 t/dia, compensando a depleção do depósito satélite Pampacancha. EBITDA ajustado recorde de US$ 421,9 milhões; receita de US$ 757,3 milhões no trimestre.",
+    "source_type": "press_release",
+    "source_url": "https://www.globenewswire.com/news-release/2026/05/01/3285768/0/en/hudbay-announces-first-quarter-2026-results-and-delivers-record-quarterly-revenue-and-adjusted-ebitda.html",
+    "extra_sources": [],
+    "fingerprint": "Hudbay Minerals|2026-05-01|1T26 Constancia 20.573t custo 0.70usd-lb throughput recorde EBITDA 421.9mi",
+    "added_at": "2026-06-30T20:00:00Z"
+  },
+  {
+    "id": "lundin-mining-2026-05-06-q1-2026-results",
+    "company": "Lundin Mining (LUN)",
+    "date": "2026-05-06",
+    "summary": "A produção total de cobre da Lundin Mining foi de 79.900 t no 1T26, em linha com a guidance. A Candelaria produziu 30.800 t de cobre, levemente abaixo de trimestres recentes devido a manutenção não planejada no moinho SAG (~3 dias de parada) e teores planejados menores; produção ponderada para o 2S26 (~55% no 3T/4T).",
+    "source_type": "press_release",
+    "source_url": "https://www.lundinmining.com/news/2026/lundin-mining-reports-first-quarter-2026-results",
+    "extra_sources": [],
+    "fingerprint": "Lundin Mining|2026-05-06|1T26 cobre 79.9kt em linha guidance Candelaria 30.8kt manutenção SAG",
+    "added_at": "2026-06-30T20:00:00Z"
+  },
+  {
+    "id": "hindalco-2026-05-22-q4-fy26-copper-segment",
+    "company": "Hindalco Industries (HINDALCO)",
+    "date": "2026-05-22",
+    "summary": "No segmento de cobre do Q4 FY26 (trimestre jan–mar/2026), a Hindalco vendeu 128 kt de metal (queda de 5% a/a); as vendas de fio-haste (CCR) cresceram 11% a/a para 91 kt. A receita do segmento subiu 52% para ₹22.156 crore, com EBITDA trimestral recorde de ₹907 crore, mesmo com queda nas taxas de tratamento/refino (TC/RC) do mercado.",
+    "source_type": "press_release",
+    "source_url": "https://www.hindalco.com/media/press-releases/hindalco-results-q4-fy26",
+    "extra_sources": [],
+    "fingerprint": "Hindalco|2026-05-22|Q4FY26 cobre vendas 128kt -5%aa CCR +11%aa EBITDA recorde 907cr TC-RC queda",
+    "added_at": "2026-06-30T20:00:00Z"
+  }
+]
