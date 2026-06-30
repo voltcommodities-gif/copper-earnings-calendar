@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Commodities Earnings Calendar</title>
-<link rel="stylesheet" href="style.css?v=3">
+<link rel="stylesheet" href="style.css?v=4">
 </head>
 <body>
 
@@ -37,7 +37,8 @@
       Datas confirmadas oficialmente pelas próprias empresas (calendário de RI, RNS ou comunicado SEC/6-K).<br>
       <span class="legend-swatch legend-swatch-cobre"></span> Cobre &nbsp;&nbsp;
       <span class="legend-swatch legend-swatch-petroleo"></span> Petróleo &nbsp;&nbsp;
-      <span class="legend-swatch legend-swatch-aluminio"></span> Alumínio<br>
+      <span class="legend-swatch legend-swatch-aluminio"></span> Alumínio &nbsp;&nbsp;
+      <span class="legend-swatch legend-swatch-ouro"></span> Ouro<br>
       Pesquisado em 26/06/2026.
     </div>
   </div>
@@ -48,30 +49,57 @@
       <button id="clearFilter">Limpar</button>
     </div>
 
-    <div class="columns">
+    <div class="columns columns-grid">
       <div class="column">
-        <div class="column-header column-header-cobre">Cobre</div>
+        <div class="column-header column-header-cobre">
+          <span>Cobre</span>
+          <button class="expand-btn" data-key="cobre" title="Abrir em tela cheia">&#10530;</button>
+        </div>
         <div class="feed" id="feed-cobre">
           <div class="feed-empty">Carregando...</div>
         </div>
       </div>
 
       <div class="column">
-        <div class="column-header column-header-petroleo">Petróleo</div>
+        <div class="column-header column-header-petroleo">
+          <span>Petróleo</span>
+          <button class="expand-btn" data-key="petroleo" title="Abrir em tela cheia">&#10530;</button>
+        </div>
         <div class="feed" id="feed-petroleo">
           <div class="feed-empty">Carregando...</div>
         </div>
       </div>
 
       <div class="column">
-        <div class="column-header column-header-aluminio">Alumínio</div>
+        <div class="column-header column-header-aluminio">
+          <span>Alumínio</span>
+          <button class="expand-btn" data-key="aluminio" title="Abrir em tela cheia">&#10530;</button>
+        </div>
         <div class="feed" id="feed-aluminio">
+          <div class="feed-empty">Carregando...</div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="column-header column-header-ouro">
+          <span>Ouro</span>
+          <button class="expand-btn" data-key="ouro" title="Abrir em tela cheia">&#10530;</button>
+        </div>
+        <div class="feed" id="feed-ouro">
           <div class="feed-empty">Carregando...</div>
         </div>
       </div>
     </div>
   </div>
 </main>
+
+<div class="fullscreen-overlay" id="fullscreenOverlay">
+  <div class="fullscreen-bar">
+    <div class="fullscreen-title" id="fullscreenTitle"></div>
+    <button class="fullscreen-close" id="fullscreenClose" title="Fechar">&times;</button>
+  </div>
+  <div class="feed fullscreen-feed" id="feed-fullscreen"></div>
+</div>
 
 <footer>Commodities Earnings Calendar — dados confirmados oficialmente</footer>
 
@@ -95,12 +123,13 @@
     viewCalendar.classList.remove('active');
   });
 </script>
-<script src="commodities.js?v=3"></script>
-<script src="data/events-cobre.js?v=3"></script>
-<script src="data/events-petroleo.js?v=3"></script>
-<script src="data/events-aluminio.js?v=3"></script>
-<script src="calendar.js?v=3"></script>
-<script src="comments.js?v=3"></script>
+<script src="commodities.js?v=4"></script>
+<script src="data/events-cobre.js?v=4"></script>
+<script src="data/events-petroleo.js?v=4"></script>
+<script src="data/events-aluminio.js?v=4"></script>
+<script src="data/events-ouro.js?v=4"></script>
+<script src="calendar.js?v=4"></script>
+<script src="comments.js?v=4"></script>
 
 </body>
 </html>

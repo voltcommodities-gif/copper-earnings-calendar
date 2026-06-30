@@ -19,5 +19,11 @@ const COMMODITIES = {
     color: "#1f5c4d",
     eventsVar: "aluminioEvents",
     commentsFile: "data/comments-aluminio.json"
+  },
+  ouro: {
+    label: "Ouro",
+    color: "#8a6314",
+    eventsVar: "ouroEvents",
+    commentsFile: "data/comments-ouro.json"
   }
 };

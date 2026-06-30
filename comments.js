@@ -9,6 +9,7 @@ const weekdayNames = ["Domingo","Segunda-feira","Terça-feira","Quarta-feira","Q
 const monthNamesFull = ["janeiro","fevereiro","março","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"];
 
 const allComments = {}; // key (ex: "cobre") -> array de itens
+let currentFilterDate = null;
 
 function formatDateLabel(iso){
   const [y, m, d] = iso.split("-").map(Number);
@@ -27,6 +28,7 @@ function renderCard(item, key){
         '<div class="card-company">' + item.company + '</div>' +
       '</div>' +
       '<div class="card-summary">' + item.summary + '</div>' +
+      '<button class="read-more-btn" type="button">Ler mais</button>' +
       '<div class="card-foot">' +
         '<div class="card-type">' + (sourceTypeLabels[item.source_type] || item.source_type) + '</div>' +
         '<div class="card-links"><a href="' + item.source_url + '" target="_blank" rel="noopener">Fonte oficial</a>' + extraLinks + '</div>' +
@@ -35,38 +37,54 @@ function renderCard(item, key){
   );
 }
 
-function renderColumn(key, filterDate){
-  const feed = document.getElementById('feed-' + key);
-
-  let items = allComments[key] || [];
-  if(filterDate){
-    items = items.filter(item => item.date === filterDate);
-  }
-
+function renderFeedHtml(items, filterDate){
   if(!items.length){
-    feed.innerHTML = '<div class="feed-empty">' +
+    return '<div class="feed-empty">' +
       (filterDate ? 'Nenhum comentário nessa data.' : 'Nenhum comentário confirmado ainda.') +
     '</div>';
-    return;
   }
 
-  items.sort((a, b) => b.date.localeCompare(a.date));
+  const sorted = [...items].sort((a, b) => b.date.localeCompare(a.date));
+  const dates = [...new Set(sorted.map(item => item.date))];
 
-  const dates = [...new Set(items.map(item => item.date))];
-
-  feed.innerHTML = dates.map(date => {
-    const dayItems = items.filter(item => item.date === date);
+  return dates.map(date => {
+    const dayItems = sorted.filter(item => item.date === date);
     return (
       '<div class="day-group">' +
-        '<div class="day-group-header day-group-header-' + key + '">' + formatDateLabel(date) + '</div>' +
-        dayItems.map(item => renderCard(item, key)).join('') +
+        '<div class="day-group-header day-group-header-' + dayItems[0]._key + '">' + formatDateLabel(date) + '</div>' +
+        dayItems.map(item => renderCard(item, item._key)).join('') +
       '</div>'
     );
   }).join('');
 }
 
+// Esconde o botão "Ler mais" em cards cujo resumo já cabe sem truncar.
+function setupReadMoreButtons(container){
+  container.querySelectorAll('.card-summary').forEach(summary => {
+    const btn = summary.nextElementSibling;
+    if(!btn || !btn.classList.contains('read-more-btn')) return;
+    if(summary.scrollHeight <= summary.clientHeight + 1){
+      btn.style.display = 'none';
+    }
+  });
+}
+
+function renderColumn(key, filterDate, targetId){
+  const feed = document.getElementById(targetId || ('feed-' + key));
+  let items = (allComments[key] || []).map(item => ({ ...item, _key: key }));
+  if(filterDate){
+    items = items.filter(item => item.date === filterDate);
+  }
+  feed.innerHTML = renderFeedHtml(items, filterDate);
+  setupReadMoreButtons(feed);
+}
+
 function renderFeed(filterDate){
   Object.keys(COMMODITIES).forEach(key => renderColumn(key, filterDate));
+  if(document.getElementById('fullscreenOverlay').classList.contains('active')){
+    const key = document.getElementById('fullscreenOverlay').dataset.key;
+    renderColumn(key, filterDate, 'feed-fullscreen');
+  }
 }
 
 async function loadComments(){
@@ -84,11 +102,36 @@ async function loadComments(){
 }
 
 document.getElementById('dateFilter').addEventListener('change', (e) => {
-  renderFeed(e.target.value || null);
+  currentFilterDate = e.target.value || null;
+  renderFeed(currentFilterDate);
 });
 document.getElementById('clearFilter').addEventListener('click', () => {
   document.getElementById('dateFilter').value = '';
+  currentFilterDate = null;
   renderFeed(null);
+});
+
+// "Ler mais" / "Ler menos" via delegação de evento (cards são recriados a cada render).
+document.addEventListener('click', (e) => {
+  if(!e.target.classList.contains('read-more-btn')) return;
+  const card = e.target.closest('.card');
+  const expanded = card.classList.toggle('expanded');
+  e.target.textContent = expanded ? 'Ler menos' : 'Ler mais';
+});
+
+// Abrir/fechar coluna em tela cheia.
+document.querySelectorAll('.expand-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const key = btn.dataset.key;
+    const overlay = document.getElementById('fullscreenOverlay');
+    overlay.dataset.key = key;
+    document.getElementById('fullscreenTitle').textContent = COMMODITIES[key].label;
+    renderColumn(key, currentFilterDate, 'feed-fullscreen');
+    overlay.classList.add('active');
+  });
+});
+document.getElementById('fullscreenClose').addEventListener('click', () => {
+  document.getElementById('fullscreenOverlay').classList.remove('active');
 });
 
 loadComments();
