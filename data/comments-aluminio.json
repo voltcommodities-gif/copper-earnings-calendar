@@ -1,1 +1,57 @@
-[]
+[
+  {
+    "id": "alcoa-2026-04-16-q1-2026-results",
+    "company": "Alcoa Corporation (AA)",
+    "date": "2026-04-16",
+    "summary": "No 1T26, a Alcoa produziu 607 kt de alumínio primário (estável sequencialmente) e 2,4 Mt de alumina (queda de 5% t/t, impactada por manutenção sazonal nas refinarias australianas). O preço realizado do alumínio foi de US$ 4.209/t e o da alumina de US$ 324/t. O custo de produção do alumínio ficou em US$ 2.468/t. O EBITDA ajustado totalizou US$ 595 milhões. Para 2026, a empresa manteve guidance de produção de alumina entre 9,7–9,9 Mt e alumínio entre 2,4–2,6 Mt. A Alcoa confirmou o reinício completo do smelter de San Ciprián (Espanha) em 8 de abril de 2026.",
+    "source_type": "press_release",
+    "source_url": "https://news.alcoa.com/press-releases/press-release-details/2026/Alcoa-Corporation-Reports-First-Quarter-2026-Results/default.aspx",
+    "extra_sources": [],
+    "fingerprint": "Alcoa|2026-04-16|1T26 alumínio 607kt alumina 2.4Mt preço 4209usd EBITDA 595mi guidance 2.4-2.6Mt",
+    "added_at": "2026-06-30T19:10:00Z"
+  },
+  {
+    "id": "norsk-hydro-2026-04-29-q1-2026-results",
+    "company": "Norsk Hydro (NHY)",
+    "date": "2026-04-29",
+    "summary": "O EBITDA ajustado da Hydro no 1T26 foi de NOK 8.668 milhões (vs. NOK 9.516 milhões no 1T25, queda de ~9%), porém acima das estimativas de mercado de NOK 7.130 milhões. O segmento de Alumínio Metálico elevou EBITDA para NOK 5.034 milhões (vs. NOK 2.546 milhões no 1T25), impulsionado por preços mais altos do alumínio (LME variou de US$ 2.995/t a US$ 3.467/t no trimestre) e custo menor de alumina. A produção de alumínio primário cresceu 2,7% a/a com reabertura de capacidades na Noruega. O segmento de Bauxita e Alumina registrou queda acentuada no EBITDA (NOK 747 mi vs. NOK 5.135 mi no 1T25), devido à queda no preço da alumina para US$ 307/t e efeitos cambiais negativos.",
+    "source_type": "press_release",
+    "source_url": "https://www.hydro.com/en/global/media/news/2026/hydros-first-quarter-2026-strong-results-reflect-solid-operational-performance/",
+    "extra_sources": [],
+    "fingerprint": "Norsk Hydro|2026-04-29|1T26 EBITDA 8668MNOK alumínio metálico 5034MNOK LME 2995-3467usd alumina 307usd",
+    "added_at": "2026-06-30T19:10:00Z"
+  },
+  {
+    "id": "alba-2026-05-12-q1-2026-results",
+    "company": "Aluminium Bahrain (ALBH)",
+    "date": "2026-05-12",
+    "summary": "A Alba reportou produção líquida de alumínio de 339.734 toneladas no 1T26 (queda de 14% a/a) e volume de vendas de 312.563 toneladas (queda de 17% a/a), ambos impactados por perturbações nos corredores de transporte marítimo regionais. Apesar disso, o lucro atribuível aos acionistas saltou para BD 75,3 milhões (US$ 200,3 milhões), alta de 316% a/a, beneficiado pelo LME médio de US$ 3.195/t no 1T26 (+22% a/a). O preço do gás natural ficou em US$ 4,5/MMBTU. Produtos de valor agregado representaram 71% dos embarques (222.626 toneladas).",
+    "source_type": "press_release",
+    "source_url": "https://www.albasmelter.com/en/article/alba-reports-its-financial-results-for-the-first-quarter-of-2026",
+    "extra_sources": [],
+    "fingerprint": "Alba|2026-05-12|1T26 produção 339.734t -14%aa lucro 200.3mi +316%aa LME 3.195usd gás 4.5MMBTU",
+    "added_at": "2026-06-30T19:10:00Z"
+  },
+  {
+    "id": "hindalco-2026-05-22-q4-fy26-results",
+    "company": "Hindalco Industries (HINDALCO)",
+    "date": "2026-05-22",
+    "summary": "No Q4 FY26 (jan–mar 2026), a divisão de Alumínio Upstream India registrou embarques de 339 kt (+2% a/a) e EBITDA de ₹5.448 crore (+13% a/a), com EBITDA por tonelada em recorde histórico trimestral de US$ 1.756/t (+4%). No acumulado de FY26, os embarques upstream totalizaram 1.350 kt e o EBITDA por tonelada foi de US$ 1.583/t. O capex consolidado em FY26 foi de ₹31.619 crore (+47% a/a), com foco em expansão de capacidade upstream — meta de escalar de 1,3 Mt para 1,7 Mt (expansão Aditya Aluminium: +360 kt em duas fases, conclusão em 2027–2028).",
+    "source_type": "press_release",
+    "source_url": "https://www.hindalco.com/media/press-releases/hindalco-results-q4-fy26",
+    "extra_sources": [],
+    "fingerprint": "Hindalco|2026-05-22|Q4FY26 upstream 339kt EBITDA 1756usd-t recorde capex 31619cr expansão 1.7Mt 2027",
+    "added_at": "2026-06-30T19:10:00Z"
+  },
+  {
+    "id": "press-metal-2026-05-29-q1-2026-results",
+    "company": "Press Metal Aluminium Holdings (PMETAL)",
+    "date": "2026-05-29",
+    "summary": "A Press Metal reportou lucro líquido de MYR 624,5 milhões no 1T26, alta de 35,2% a/a (vs. MYR 461,77 mi no 1T25), terceiro trimestre consecutivo de lucro recorde. A receita cresceu 5,2% para MYR 4,1 bilhões. O principal driver foi o LME médio de alumínio de US$ 3.192/t no 1T26 (+13% t/t e +22% a/a), combinado com volumes de vendas maiores e custos de alumina mais baixos. A empresa declarou dividendo interino de 2,5 sen/ação.",
+    "source_type": "press_release",
+    "source_url": "https://www.pressmetal.com/investor-relations/reports-presentations",
+    "extra_sources": [],
+    "fingerprint": "Press Metal|2026-05-29|1T26 lucro 624.5MYR +35%aa receita 4.1bi LME 3.192usd +22%aa dividendo 2.5sen",
+    "added_at": "2026-06-30T19:10:00Z"
+  }
+]

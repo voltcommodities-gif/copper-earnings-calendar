@@ -1,1 +1,68 @@
-[]
+[
+  {
+    "id": "exxonmobil-2026-05-01-q1-2026-results",
+    "company": "ExxonMobil (XOM)",
+    "date": "2026-05-01",
+    "summary": "No 1T26, a ExxonMobil reportou produção total de 4,594 milhões de boe/dia, com produção recorde na Guiana superior a 900 mil barris brutos por dia. A bacia do Permian atingiu 1,7 milhão de boe/dia, alta de 250 mil boe/dia vs. 1T25. O refino processou 3.494 mil bpd (queda vs. 4.060 kbpd no 4T25, parcialmente afetado por disrupções no Oriente Médio). O fluxo de caixa operacional foi de US$ 8,7 bilhões; capex de US$ 6,2 bilhões no trimestre, com guidance anual mantido em US$ 27–29 bilhões. O lucro líquido ajustado foi de US$ 4,9 bilhões.",
+    "source_type": "press_release",
+    "source_url": "https://investor.exxonmobil.com/company-information/press-releases/detail/1204/exxonmobil-announces-first-quarter-2026-results",
+    "extra_sources": [],
+    "fingerprint": "ExxonMobil|2026-05-01|1T26 produção 4.594Mboed Guiana 900kbpd Permian 1.7Mboed refino 3.494kbpd",
+    "added_at": "2026-06-30T19:10:00Z"
+  },
+  {
+    "id": "totalenergies-2026-04-29-q1-2026-results",
+    "company": "TotalEnergies (TTE)",
+    "date": "2026-04-29",
+    "summary": "A TotalEnergies reportou produção de hidrocarbonetos de 2,553 Mboe/dia no 1T26, estável a/a — crescimento orgânico de ~4% compensado por ~100 kboe/dia de impacto de disrupções no Oriente Médio. O lucro líquido ajustado foi de US$ 5,4 bilhões (+29% vs. 1T25), com resultado por ação de US$ 2,45 (vs. consenso de ~US$ 2,01). O fluxo de caixa foi de US$ 8,6 bilhões. A empresa anunciou aumento de 5,9% no dividendo intermediário para €0,90/ação e recompra de ações de até US$ 1,5 bilhão no 2T26.",
+    "source_type": "press_release",
+    "source_url": "https://totalenergies.com/newsroom/resultats-du-premier-trimestre-2026-468453/?lang=eng",
+    "extra_sources": [],
+    "fingerprint": "TotalEnergies|2026-04-29|1T26 produção 2.553Mboed lucro 5.4bi dividendo 0.90eur recompra 1.5bi",
+    "added_at": "2026-06-30T19:10:00Z"
+  },
+  {
+    "id": "bp-2026-04-28-q1-2026-results",
+    "company": "BP (BP)",
+    "date": "2026-04-28",
+    "summary": "A BP produziu 2,3 milhões de boe/dia no 1T26, com confiabilidade das plantas em 95,7%. O processamento de refino superou 1,5 milhão de bpd, o maior volume em quatro anos, com disponibilidade de refinarias de 96,3% (acima da meta de 96%). O lucro subjacente (underlying RC profit) foi de US$ 3,2 bilhões. O fluxo de caixa operacional foi de US$ 8,9 bilhões. Capex de US$ 3,3 bilhões no trimestre; guidance anual de US$ 13–13,5 bilhões. A dívida líquida subiu ~US$ 3 bilhões para US$ 25,3 bilhões.",
+    "source_type": "press_release",
+    "source_url": "https://www.bp.com/press-and-publications/press-releases/first-quarter-2026-results",
+    "extra_sources": [],
+    "fingerprint": "BP|2026-04-28|1T26 produção 2.3Mboed refino 1.5Mbpd lucro 3.2bi capex 3.3bi divida 25.3bi",
+    "added_at": "2026-06-30T19:10:00Z"
+  },
+  {
+    "id": "eni-2026-04-24-q1-2026-results",
+    "company": "Eni (ENI)",
+    "date": "2026-04-24",
+    "summary": "A Eni produziu 1,8 milhão de boe/dia no 1T26, alta de 9% a/a, com líquidos em 862 kbbl/dia (+10%), puxados por Noruega, Congo, Angola, México e Egito. O EBIT pró-forma ajustado do segmento E&P foi de €3,36 bilhões; total do grupo €3,54 bilhões (+23% t/t). O lucro líquido ajustado foi de €1,3 bilhão. Capex orgânico de €1,9 bilhão no trimestre; guidance anual de capex bruto de €7 bilhões. O CFFO anual foi revisado para cima de €11,5 bilhões para €13,8 bilhões (premissa Brent US$ 83/bbl, EUR/USD 1,15). Guidance de crescimento de produção 2026: 3–4%.",
+    "source_type": "press_release",
+    "source_url": "https://www.eni.com/en-IT/media/press-release/2026/04/2026-first-quarter-results.html",
+    "extra_sources": [],
+    "fingerprint": "Eni|2026-04-24|1T26 produção 1.8Mboed +9%aa EBIT 3.54bi capex 1.9bi CFFO 13.8bi guidance +3-4%",
+    "added_at": "2026-06-30T19:10:00Z"
+  },
+  {
+    "id": "equinor-2026-05-06-q1-2026-results",
+    "company": "Equinor (EQNR)",
+    "date": "2026-05-06",
+    "summary": "A Equinor registrou produção recorde de 2.313 mboe/dia no 1T26, alta de 9% em relação a 2.123 mboe/dia no 1T25, impulsionada por Johan Castberg, Halten East e Verdande, com crescimento de 10% na plataforma continental norueguesa. O preço realizado de líquidos foi de US$ 78,6/barril; gás europeu realizado a US$ 12,9/mmbtu. O resultado operacional ajustado atingiu US$ 9,77 bilhões; lucro líquido de US$ 3,1 bilhões (+18% vs. 1T25). Capex orgânico de US$ 3,04 bilhões no trimestre; guidance de produção de +3% para o ano inteiro de 2026 e capex anual de ~US$ 13 bilhões.",
+    "source_type": "press_release",
+    "source_url": "https://www.equinor.com/news/equinor-first-quarter-2026-results",
+    "extra_sources": [],
+    "fingerprint": "Equinor|2026-05-06|1T26 produção recorde 2313mboed +9%aa líquidos 78.6usd lucro 3.1bi capex 13bi",
+    "added_at": "2026-06-30T19:10:00Z"
+  },
+  {
+    "id": "petrobras-2026-05-11-q1-2026-results",
+    "company": "Petrobras (PBR/PETR4)",
+    "date": "2026-05-11",
+    "summary": "A Petrobras registrou produção própria recorde de 3,23 milhões de boe/dia no 1T26, alta de 3,7% t/t e 16,1% a/a, com o pré-sal respondendo por 2,66 milhões de boe/dia. O refino produziu 1,816 milhão de bpd de derivados (+6,7% t/t), com taxa de utilização das refinarias de 95% (pico de 97,4% em março) e produção recorde de diesel S-10 de 512 mil bpd em março. O lucro líquido foi de R$ 32,7 bilhões (US$ 6,2 bilhões), com EBITDA ajustado de R$ 59,6 bilhões. Capex no trimestre de R$ 26,8 bilhões (+25,6% a/a), com 90% alocado em E&P.",
+    "source_type": "press_release",
+    "source_url": "https://agencia.petrobras.com.br/w/negocio/petrobras-registra-lucro-liquido-de-r-32-7-bilhoes-no-primeiro-trimestre-de-2026",
+    "extra_sources": [],
+    "fingerprint": "Petrobras|2026-05-11|1T26 produção recorde 3.23Mboed pré-sal 2.66Mboed refino 95% lucro 32.7bi",
+    "added_at": "2026-06-30T19:10:00Z"
+  }
+]

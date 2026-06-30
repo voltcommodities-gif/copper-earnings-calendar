@@ -1,11 +1,17 @@
 // Eventos de earnings/produção confirmados oficialmente — Cobre
 var cobreEvents = {
+  "2026-07-15": [
+    { co: "Antofagasta plc (ANTO)", desc: "Relatório de Produção Q2 2026" }
+  ],
   "2026-07-21": [
     { co: "Boliden (BOL)", desc: "Relatório de Resultados do 2º trimestre 2026" }
   ],
   "2026-07-23": [
     { co: "Anglo American (AAL)", desc: "Relatório de Produção Q2 2026" },
     { co: "Teck Resources (TECK)", desc: "Teleconferência de resultados Q2 2026" }
+  ],
+  "2026-07-28": [
+    { co: "First Quantum Minerals (FM)", desc: "Resultado do 2º trimestre 2026 (teleconferência em 29/jul)" }
   ],
   "2026-07-29": [
     { co: "Rio Tinto (RIO)", desc: "Resultado do 1º semestre de 2026" },
@@ -16,7 +22,8 @@ var cobreEvents = {
     { co: "Ivanhoe Mines (IVN)", desc: "Teleconferência de resultados Q2 2026" }
   ],
   "2026-08-05": [
-    { co: "Glencore (GLEN)", desc: "Resultado do 1º semestre de 2026" }
+    { co: "Glencore (GLEN)", desc: "Resultado do 1º semestre de 2026" },
+    { co: "Lundin Mining (LUN)", desc: "Resultado do 2º trimestre 2026" }
   ],
   "2026-08-06": [
     { co: "Aurubis (NDA)", desc: "Relatório dos primeiros 9 meses do exercício fiscal 2025/26" }
