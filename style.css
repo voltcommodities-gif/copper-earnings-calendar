@@ -141,10 +141,8 @@ main{
 
 .calendar{
   width:100%;
+  max-width:920px;
   border:1px solid var(--navy);
-}
-.calendar-petroleo{
-  border-color:var(--purple);
 }
 .weekdays, .grid{
   display:grid;
@@ -159,15 +157,12 @@ main{
   background:var(--navy);
   padding:10px 0;
 }
-.calendar-petroleo .weekdays div{
-  background:var(--purple);
-}
 .day{
   position:relative;
-  min-height:76px;
+  min-height:96px;
   border-right:1px solid var(--border);
   border-bottom:1px solid var(--border);
-  padding:6px;
+  padding:8px;
   background:var(--white);
 }
 .grid .day:nth-child(7n){
@@ -184,9 +179,6 @@ main{
 .day.has-event .day-num{
   color:var(--navy);
   font-weight:700;
-}
-.calendar-petroleo .day.has-event .day-num{
-  color:var(--purple);
 }
 .event{
   margin-top:6px;

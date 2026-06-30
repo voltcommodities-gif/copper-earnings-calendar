@@ -1,15 +1,24 @@
-// Renderiza um mini-calendário por commodity (cobreEvents, petroleoEvents),
-// um ao lado do outro, compartilhando a mesma navegação de mês.
+// Calendário único com earnings de todas as commodities (COMMODITIES),
+// cada evento colorido de acordo com a commodity de origem.
 const monthNames = ["Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"];
 
 let current = new Date(2026, 6, 1); // Julho 2026
 
-function renderColumn(key){
-  const events = window[COMMODITIES[key].eventsVar];
+function eventsForDate(dateKey){
+  const result = [];
+  Object.keys(COMMODITIES).forEach(key => {
+    const events = window[COMMODITIES[key].eventsVar] || {};
+    (events[dateKey] || []).forEach(ev => result.push({ ...ev, commodityKey: key }));
+  });
+  return result;
+}
+
+function render(){
   const year = current.getFullYear();
   const month = current.getMonth();
+  document.getElementById('monthLabel').textContent = monthNames[month] + " " + year;
 
-  const grid = document.getElementById('grid-' + key);
+  const grid = document.getElementById('grid');
   grid.innerHTML = "";
 
   const firstDay = new Date(year, month, 1).getDay();
@@ -24,31 +33,24 @@ function renderColumn(key){
   for(let d = 1; d <= daysInMonth; d++){
     const cell = document.createElement('div');
     const dateKey = year + "-" + String(month+1).padStart(2,'0') + "-" + String(d).padStart(2,'0');
-    const dayEvents = events[dateKey];
+    const dayEvents = eventsForDate(dateKey);
 
-    cell.className = 'day' + (dayEvents ? ' has-event' : '');
+    cell.className = 'day' + (dayEvents.length ? ' has-event' : '');
 
     const num = document.createElement('div');
     num.className = 'day-num';
     num.textContent = d;
     cell.appendChild(num);
 
-    if(dayEvents){
-      dayEvents.forEach(ev => {
-        const tag = document.createElement('div');
-        tag.className = 'event event-' + key;
-        tag.innerHTML = '<span class="co">' + ev.co + '</span>' + ev.desc;
-        cell.appendChild(tag);
-      });
-    }
+    dayEvents.forEach(ev => {
+      const tag = document.createElement('div');
+      tag.className = 'event event-' + ev.commodityKey;
+      tag.innerHTML = '<span class="co">' + ev.co + '</span>' + ev.desc;
+      cell.appendChild(tag);
+    });
 
     grid.appendChild(cell);
   }
-}
-
-function render(){
-  document.getElementById('monthLabel').textContent = monthNames[current.getMonth()] + " " + current.getFullYear();
-  Object.keys(COMMODITIES).forEach(renderColumn);
 }
 
 document.getElementById('prev').addEventListener('click', () => {
