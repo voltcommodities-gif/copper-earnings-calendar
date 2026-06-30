@@ -8,7 +8,10 @@ const sourceTypeLabels = {
 const weekdayNames = ["Domingo","Segunda-feira","Terça-feira","Quarta-feira","Quinta-feira","Sexta-feira","Sábado"];
 const monthNamesFull = ["janeiro","fevereiro","março","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"];
 
+const PAGE_SIZE = 3;
+
 const allComments = {}; // key (ex: "cobre") -> array de itens
+const visibleCounts = {}; // key -> quantos itens mostrar na coluna (não na tela cheia)
 let currentFilterDate = null;
 
 function formatDateLabel(iso){
@@ -44,11 +47,10 @@ function renderFeedHtml(items, filterDate){
     '</div>';
   }
 
-  const sorted = [...items].sort((a, b) => b.date.localeCompare(a.date));
-  const dates = [...new Set(sorted.map(item => item.date))];
+  const dates = [...new Set(items.map(item => item.date))];
 
   return dates.map(date => {
-    const dayItems = sorted.filter(item => item.date === date);
+    const dayItems = items.filter(item => item.date === date);
     return (
       '<div class="day-group">' +
         '<div class="day-group-header day-group-header-' + dayItems[0]._key + '">' + formatDateLabel(date) + '</div>' +
@@ -69,21 +71,42 @@ function setupReadMoreButtons(container){
   });
 }
 
-function renderColumn(key, filterDate, targetId){
+// targetId/showAll: usados pela tela cheia, que sempre mostra tudo, sem paginação.
+function renderColumn(key, filterDate, targetId, showAll){
   const feed = document.getElementById(targetId || ('feed-' + key));
   let items = (allComments[key] || []).map(item => ({ ...item, _key: key }));
   if(filterDate){
     items = items.filter(item => item.date === filterDate);
   }
-  feed.innerHTML = renderFeedHtml(items, filterDate);
+  items.sort((a, b) => b.date.localeCompare(a.date));
+
+  const limit = showAll ? items.length : (visibleCounts[key] || PAGE_SIZE);
+  const visibleItems = items.slice(0, limit);
+
+  feed.innerHTML = renderFeedHtml(visibleItems, filterDate);
   setupReadMoreButtons(feed);
+
+  if(!showAll && items.length > limit){
+    const btn = document.createElement('button');
+    btn.className = 'load-more-btn';
+    btn.type = 'button';
+    btn.textContent = 'Carregar mais (' + (items.length - limit) + ')';
+    btn.addEventListener('click', () => {
+      visibleCounts[key] = limit + PAGE_SIZE;
+      renderColumn(key, filterDate, targetId, showAll);
+    });
+    feed.appendChild(btn);
+  }
 }
 
 function renderFeed(filterDate){
-  Object.keys(COMMODITIES).forEach(key => renderColumn(key, filterDate));
+  Object.keys(COMMODITIES).forEach(key => {
+    visibleCounts[key] = PAGE_SIZE;
+    renderColumn(key, filterDate);
+  });
   if(document.getElementById('fullscreenOverlay').classList.contains('active')){
     const key = document.getElementById('fullscreenOverlay').dataset.key;
-    renderColumn(key, filterDate, 'feed-fullscreen');
+    renderColumn(key, filterDate, 'feed-fullscreen', true);
   }
 }
 
@@ -119,14 +142,14 @@ document.addEventListener('click', (e) => {
   e.target.textContent = expanded ? 'Ler menos' : 'Ler mais';
 });
 
-// Abrir/fechar coluna em tela cheia.
+// Abrir/fechar coluna em tela cheia (sempre mostra o histórico completo).
 document.querySelectorAll('.expand-btn').forEach(btn => {
   btn.addEventListener('click', () => {
     const key = btn.dataset.key;
     const overlay = document.getElementById('fullscreenOverlay');
     overlay.dataset.key = key;
     document.getElementById('fullscreenTitle').textContent = COMMODITIES[key].label;
-    renderColumn(key, currentFilterDate, 'feed-fullscreen');
+    renderColumn(key, currentFilterDate, 'feed-fullscreen', true);
     overlay.classList.add('active');
   });
 });
