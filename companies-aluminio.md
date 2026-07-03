@@ -152,5 +152,13 @@ Lista cobre mineração de bauxita, refinarias de alumina, smelters e terminais/
 - Stade Port (Elbe)
 - Port de Dunkerque
 
+## Empresas adicionais incluídas
+
+- Alcoa
+- Norsk Hydro
+- Rusal
+- Emirates Global Aluminium
+- South32
+
 ## Observação
 Boa parte destas entidades é subsidiária integral, joint venture, porto/terminal operado por autoridade portuária ou estatal sem calendário de RI público (ex.: consórcios de mineração, autoridades portuárias, empresas estatais como CVG, IRALCO, Staatsolie). Para essas, é normal a busca diária não encontrar nada — só atualizar quando houver fonte oficial real, e priorizar nas buscas as controladoras com ações negociadas em bolsa (Rio Tinto, Alcoa, South32, Norsk Hydro, Vedanta Resources, Hindalco/Aditya Birla, NALCO, China Hongqiao Group, Chalco/Chinalco, Century Aluminum, Mytilineos, EGA, Ma'aden, Press Metal Group, Aluminium Bahrain (Alba), PT Inalum).

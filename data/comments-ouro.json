@@ -1,5 +1,16 @@
 [
   {
+    "id": "news-ouro-1783099388-50771",
+    "company": "Major headline · Ouro",
+    "date": "2026-07-03",
+    "summary": "Resumo (PT): Goldman vê commodities como hedge ante choques e reforça tese em metais e energia - InfoMoney. <a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxQLW9lYjJYTk91WVNoVjZ5QllhTEtkS1lQVW40N2tOS21j",
+    "source_type": "news",
+    "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLW9lYjJYTk91WVNoVjZ5QllhTEtkS1lQVW40N2tOS21jT2hrbEJaeWVqOUFrRU9OZHg4clVaVlZvanRsYVFlMUJSbGpxZWFLMUxuNHFPUlVxNF9uczEtNDh4WjUwRzBtYVNtTVNtTEU4d0E1T0NNNUV0Mmtma1ZzUmdxX3lMRVNGT3p5em1lLWpfSnhHZ2NvQzVWeFZPa1lSSlJIOXc1VFdMVFZpUFNkVHpkTi1rajV1YlZ1SNIBwgFBVV95cUxNbWpKNWlTU2FwNTdoUy1WN0lpMGtWSFZRRjlPQWtKeTFuZUNEX1IzMU1mVHBtdjBvc3dQTzVnWlpKR08tdnh5NEhwSzhycE8wR1ZLUTF4N0NwYnJOTU9lak9mc2l2Z1BzZmVfSXptVUZRLUZBSDNDQzN4NkhVcDRnY2VxV3BMMVBVN2E4cEROc3FYSmxiWE1DUlRjTnNvSGpud184dkY1NlhnbFFFcmpUUG9QbmZXU0tHT1FZYmthMGFKZw?oc=5",
+    "extra_sources": [],
+    "fingerprint": "ouro|2026-07-03|Goldman vê commodities como hedge ante choques e reforça tese em metais e energia - InfoMoney",
+    "added_at": "2026-07-03T17:23:08Z"
+  },
+  {
     "id": "harmony-gold-2026-06-30-fy2026-preclose",
     "company": "Harmony Gold Mining (HMY/HAR)",
     "date": "2026-06-30",
@@ -108,5 +119,60 @@
     "extra_sources": [],
     "fingerprint": "Harmony Gold|2026-05-18|9meses produção 1073610oz -3% Q3 349511oz +5%tt grade 5.85g-t AISC 2133usd-oz",
     "added_at": "2026-06-30T21:00:00Z"
+  },
+  {
+    "id": "barrick-2026-07-03-monitoring",
+    "company": "Barrick Gold",
+    "date": "2026-07-03",
+    "summary": "Major global gold producer included to track official quarterly results, production guidance and reserve updates.",
+    "source_type": "press_release",
+    "source_url": "https://www.barrick.com/investors/default.aspx",
+    "extra_sources": [],
+    "fingerprint": "Barrick|2026-07-03|monitoramento ouro",
+    "added_at": "2026-07-03T00:00:00Z"
+  },
+  {
+    "id": "newmont-2026-07-03-monitoring",
+    "company": "Newmont",
+    "date": "2026-07-03",
+    "summary": "World-leading gold miner added for official updates on production, costs and portfolio developments.",
+    "source_type": "press_release",
+    "source_url": "https://www.newmont.com/investors/",
+    "extra_sources": [],
+    "fingerprint": "Newmont|2026-07-03|monitoramento ouro",
+    "added_at": "2026-07-03T00:00:00Z"
+  },
+  {
+    "id": "agnico-eagle-2026-07-03-monitoring",
+    "company": "Agnico Eagle Mines",
+    "date": "2026-07-03",
+    "summary": "Senior gold producer included for official guidance, mine performance and quarterly results disclosures.",
+    "source_type": "press_release",
+    "source_url": "https://www.agnicoeagle.com/investors/default.aspx",
+    "extra_sources": [],
+    "fingerprint": "Agnico Eagle|2026-07-03|monitoramento ouro",
+    "added_at": "2026-07-03T00:00:00Z"
+  },
+  {
+    "id": "anglogold-ashanti-2026-07-03-monitoring",
+    "company": "AngloGold Ashanti",
+    "date": "2026-07-03",
+    "summary": "Global gold producer added to track official operating metrics, guidance and investor communications.",
+    "source_type": "press_release",
+    "source_url": "https://www.anglogoldashanti.com/investors/",
+    "extra_sources": [],
+    "fingerprint": "AngloGold Ashanti|2026-07-03|monitoramento ouro",
+    "added_at": "2026-07-03T00:00:00Z"
+  },
+  {
+    "id": "kinross-2026-07-03-monitoring",
+    "company": "Kinross Gold",
+    "date": "2026-07-03",
+    "summary": "Gold producer included for official production updates and quarterly earnings-related disclosures.",
+    "source_type": "press_release",
+    "source_url": "https://www.kinross.com/investors/",
+    "extra_sources": [],
+    "fingerprint": "Kinross|2026-07-03|monitoramento ouro",
+    "added_at": "2026-07-03T00:00:00Z"
   }
 ]

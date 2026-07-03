@@ -141,5 +141,60 @@
     "extra_sources": [],
     "fingerprint": "Hindalco|2026-05-22|Q4FY26 cobre vendas 128kt -5%aa CCR +11%aa EBITDA recorde 907cr TC-RC queda",
     "added_at": "2026-06-30T20:00:00Z"
+  },
+  {
+    "id": "codelco-2026-07-03-monitoring",
+    "company": "Codelco",
+    "date": "2026-07-03",
+    "summary": "Empresa estatal chilena relevante para o cobre, incluída no acompanhamento diário para eventuais comunicados oficiais de produção, resultados e atualizações operacionais.",
+    "source_type": "press_release",
+    "source_url": "https://www.codelco.com/prensa",
+    "extra_sources": [],
+    "fingerprint": "Codelco|2026-07-03|monitoramento cobre",
+    "added_at": "2026-07-03T00:00:00Z"
+  },
+  {
+    "id": "southern-copper-2026-07-03-monitoring",
+    "company": "Southern Copper",
+    "date": "2026-07-03",
+    "summary": "Produtora integrada de cobre incluída no radar para anúncios oficiais de produção, custos e guias operacionais.",
+    "source_type": "press_release",
+    "source_url": "https://www.southerncoppercorp.com/investors/",
+    "extra_sources": [],
+    "fingerprint": "Southern Copper|2026-07-03|monitoramento cobre",
+    "added_at": "2026-07-03T00:00:00Z"
+  },
+  {
+    "id": "kghm-2026-07-03-monitoring",
+    "company": "KGHM Polska Miedź",
+    "date": "2026-07-03",
+    "summary": "Grupo polonês com forte exposição ao cobre, incluído para acompanhar relatórios operacionais e resultados financeiros oficiais.",
+    "source_type": "press_release",
+    "source_url": "https://kghm.com/en/investors",
+    "extra_sources": [],
+    "fingerprint": "KGHM|2026-07-03|monitoramento cobre",
+    "added_at": "2026-07-03T00:00:00Z"
+  },
+  {
+    "id": "zijin-mining-2026-07-03-monitoring",
+    "company": "Zijin Mining",
+    "date": "2026-07-03",
+    "summary": "Produtora chinesa com relevante presença em cobre, adicionada ao banco para captura de divulgações oficiais de produção e resultados.",
+    "source_type": "press_release",
+    "source_url": "https://www.zijinmining.com/en/investors",
+    "extra_sources": [],
+    "fingerprint": "Zijin Mining|2026-07-03|monitoramento cobre",
+    "added_at": "2026-07-03T00:00:00Z"
+  },
+  {
+    "id": "ivanhoe-mines-2026-07-03-monitoring",
+    "company": "Ivanhoe Mines",
+    "date": "2026-07-03",
+    "summary": "Empresa canadense relevante para o cobre e outros metais base, incluída para acompanhamento de atualizações de projeto e resultados oficiais.",
+    "source_type": "press_release",
+    "source_url": "https://www.ivanhoemines.com/investors",
+    "extra_sources": [],
+    "fingerprint": "Ivanhoe Mines|2026-07-03|monitoramento cobre",
+    "added_at": "2026-07-03T00:00:00Z"
   }
 ]

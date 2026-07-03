@@ -1,5 +1,16 @@
 [
   {
+    "id": "news-petroleo-1783099388-54179",
+    "company": "Major headline · Petroleo",
+    "date": "2026-07-03",
+    "summary": "Resumo (PT): Reality has a surprising amount of detail. Every task hides more nuance than it first appears to have. From building stairs to understanding boiling",
+    "source_type": "news",
+    "source_url": "https://flipso.com/p/shqiuw8cm?ref=rss",
+    "extra_sources": [],
+    "fingerprint": "petroleo|2026-07-03|Reality has a surprising amount of detail",
+    "added_at": "2026-07-03T17:23:08Z"
+  },
+  {
     "id": "exxonmobil-2026-05-01-q1-2026-results",
     "company": "ExxonMobil (XOM)",
     "date": "2026-05-01",
@@ -152,5 +163,60 @@
     "extra_sources": [],
     "fingerprint": "PetroChina|2026-04-30|1T26 produção 470.2Mboe +0.7%aa processamento 343Mbbl derivados 28.55Mt",
     "added_at": "2026-06-30T20:15:00Z"
+  },
+  {
+    "id": "exxonmobil-2026-07-03-monitoring",
+    "company": "ExxonMobil",
+    "date": "2026-07-03",
+    "summary": "Integrated oil major added to the monitoring list for official quarterly results, production updates and capital allocation announcements.",
+    "source_type": "press_release",
+    "source_url": "https://investor.exxonmobil.com",
+    "extra_sources": [],
+    "fingerprint": "ExxonMobil|2026-07-03|monitoramento petroleo",
+    "added_at": "2026-07-03T00:00:00Z"
+  },
+  {
+    "id": "chevron-2026-07-03-monitoring",
+    "company": "Chevron",
+    "date": "2026-07-03",
+    "summary": "Major US upstream and downstream operator included for official earnings, production and portfolio updates.",
+    "source_type": "press_release",
+    "source_url": "https://investor.chevron.com",
+    "extra_sources": [],
+    "fingerprint": "Chevron|2026-07-03|monitoramento petroleo",
+    "added_at": "2026-07-03T00:00:00Z"
+  },
+  {
+    "id": "shell-2026-07-03-monitoring",
+    "company": "Shell",
+    "date": "2026-07-03",
+    "summary": "Integrated energy company monitored for official production disclosures, capital markets updates and strategic announcements.",
+    "source_type": "press_release",
+    "source_url": "https://reports.shell.com",
+    "extra_sources": [],
+    "fingerprint": "Shell|2026-07-03|monitoramento petroleo",
+    "added_at": "2026-07-03T00:00:00Z"
+  },
+  {
+    "id": "totalenergies-2026-07-03-monitoring",
+    "company": "TotalEnergies",
+    "date": "2026-07-03",
+    "summary": "Integrated oil and gas company included for official quarterly results and upstream/downstream operational reports.",
+    "source_type": "press_release",
+    "source_url": "https://totalenergies.com/investors",
+    "extra_sources": [],
+    "fingerprint": "TotalEnergies|2026-07-03|monitoramento petroleo",
+    "added_at": "2026-07-03T00:00:00Z"
+  },
+  {
+    "id": "eni-2026-07-03-monitoring",
+    "company": "Eni",
+    "date": "2026-07-03",
+    "summary": "Italian integrated energy company added to the monitoring set for official disclosures on upstream performance and group results.",
+    "source_type": "press_release",
+    "source_url": "https://www.eni.com/en_IT/investors.html",
+    "extra_sources": [],
+    "fingerprint": "Eni|2026-07-03|monitoramento petroleo",
+    "added_at": "2026-07-03T00:00:00Z"
   }
 ]

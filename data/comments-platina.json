@@ -1,0 +1,57 @@
+[
+  {
+    "id": "implats-2026-07-03-monitoring",
+    "company": "Impala Platinum Holdings",
+    "date": "2026-07-03",
+    "summary": "Major platinum-group metals producer included in the monitoring set for official production, cash flow and operational updates.",
+    "source_type": "press_release",
+    "source_url": "https://www.implats.co.za/investor-overview.php",
+    "extra_sources": [],
+    "fingerprint": "Implats|2026-07-03|monitoramento platina",
+    "added_at": "2026-07-03T00:00:00Z"
+  },
+  {
+    "id": "northam-2026-07-03-monitoring",
+    "company": "Northam Platinum Holdings",
+    "date": "2026-07-03",
+    "summary": "Platinum producer added to the database for official results and production disclosures.",
+    "source_type": "press_release",
+    "source_url": "https://www.northam.co.za/investors-and-media/",
+    "extra_sources": [],
+    "fingerprint": "Northam Platinum|2026-07-03|monitoramento platina",
+    "added_at": "2026-07-03T00:00:00Z"
+  },
+  {
+    "id": "sibanye-stillwater-2026-07-03-monitoring",
+    "company": "Sibanye-Stillwater",
+    "date": "2026-07-03",
+    "summary": "Major PGM group monitored for official production updates, guidance and capital allocation announcements.",
+    "source_type": "press_release",
+    "source_url": "https://www.sibanyestillwater.com/investors/",
+    "extra_sources": [],
+    "fingerprint": "Sibanye-Stillwater|2026-07-03|monitoramento platina",
+    "added_at": "2026-07-03T00:00:00Z"
+  },
+  {
+    "id": "tharisa-2026-07-03-monitoring",
+    "company": "Tharisa plc",
+    "date": "2026-07-03",
+    "summary": "PGM and chrome producer added to the monitoring set for updates on production, costs and cash generation.",
+    "source_type": "press_release",
+    "source_url": "https://www.tharisa.com/investors/",
+    "extra_sources": [],
+    "fingerprint": "Tharisa|2026-07-03|monitoramento platina",
+    "added_at": "2026-07-03T00:00:00Z"
+  },
+  {
+    "id": "nornickel-2026-07-03-monitoring",
+    "company": "Norilsk Nickel",
+    "date": "2026-07-03",
+    "summary": "Major Russian PGM and nickel company included for official production and operational updates relevant to the commodity universe.",
+    "source_type": "press_release",
+    "source_url": "https://www.nornickel.com/",
+    "extra_sources": [],
+    "fingerprint": "Norilsk Nickel|2026-07-03|monitoramento platina",
+    "added_at": "2026-07-03T00:00:00Z"
+  }
+]

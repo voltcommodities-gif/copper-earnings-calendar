@@ -25,5 +25,11 @@ const COMMODITIES = {
     color: "#8a6314",
     eventsVar: "ouroEvents",
     commentsFile: "data/comments-ouro.json"
+  },
+  platina: {
+    label: "Platina",
+    color: "#6b4f2f",
+    eventsVar: "platinaEvents",
+    commentsFile: "data/comments-platina.json"
   }
 };

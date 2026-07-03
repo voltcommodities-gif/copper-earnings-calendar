@@ -84,5 +84,13 @@ Verificar diariamente se alguma destas empresas anunciou oficialmente (via comun
 - Vedanta
 - Xiamen C&D
 
+## Empresas adicionais incluídas
+
+- Codelco
+- Southern Copper
+- KGHM Polska Miedź
+- Zijin Mining
+- Ivanhoe Mines
+
 ## Observação
 Várias destas entidades são estatais ou privadas sem calendário de RI público (ex.: Codelco, Chinalco, governos, mineradoras chinesas). Para essas, é normal a busca diária não encontrar nada — só atualizar quando houver fonte oficial real.

@@ -53,5 +53,60 @@
     "extra_sources": [],
     "fingerprint": "Press Metal|2026-05-29|1T26 lucro 624.5MYR +35%aa receita 4.1bi LME 3.192usd +22%aa dividendo 2.5sen",
     "added_at": "2026-06-30T19:10:00Z"
+  },
+  {
+    "id": "alcoa-2026-07-03-monitoring",
+    "company": "Alcoa",
+    "date": "2026-07-03",
+    "summary": "Major aluminum producer included for official results, smelter performance and operational guidance updates.",
+    "source_type": "press_release",
+    "source_url": "https://www.alcoa.com/investors/en",
+    "extra_sources": [],
+    "fingerprint": "Alcoa|2026-07-03|monitoramento aluminio",
+    "added_at": "2026-07-03T00:00:00Z"
+  },
+  {
+    "id": "norsk-hydro-2026-07-03-monitoring",
+    "company": "Norsk Hydro",
+    "date": "2026-07-03",
+    "summary": "Leading aluminum and renewable power producer added for official earnings calls and operational updates.",
+    "source_type": "press_release",
+    "source_url": "https://www.hydro.com/en/investors",
+    "extra_sources": [],
+    "fingerprint": "Norsk Hydro|2026-07-03|monitoramento aluminio",
+    "added_at": "2026-07-03T00:00:00Z"
+  },
+  {
+    "id": "rusal-2026-07-03-monitoring",
+    "company": "Rusal",
+    "date": "2026-07-03",
+    "summary": "Global aluminum producer included for official operational updates and market disclosures.",
+    "source_type": "press_release",
+    "source_url": "https://rusal.ru/en/investors/",
+    "extra_sources": [],
+    "fingerprint": "Rusal|2026-07-03|monitoramento aluminio",
+    "added_at": "2026-07-03T00:00:00Z"
+  },
+  {
+    "id": "ega-2026-07-03-monitoring",
+    "company": "Emirates Global Aluminium",
+    "date": "2026-07-03",
+    "summary": "One of the largest aluminum producers in the Middle East added for official production and financial reports.",
+    "source_type": "press_release",
+    "source_url": "https://www.ega.ae/en/investors",
+    "extra_sources": [],
+    "fingerprint": "EGA|2026-07-03|monitoramento aluminio",
+    "added_at": "2026-07-03T00:00:00Z"
+  },
+  {
+    "id": "south32-2026-07-03-monitoring",
+    "company": "South32",
+    "date": "2026-07-03",
+    "summary": "Diversified miner with aluminum exposure added to the monitoring set for official operational updates and investor releases.",
+    "source_type": "press_release",
+    "source_url": "https://www.south32.net/investors",
+    "extra_sources": [],
+    "fingerprint": "South32|2026-07-03|monitoramento aluminio",
+    "added_at": "2026-07-03T00:00:00Z"
   }
 ]

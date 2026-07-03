@@ -46,5 +46,13 @@ Verificar diariamente se alguma destas empresas anunciou oficialmente (via comun
 - SOKIMO (governo DRC)
 - PT United Tractors
 
+## Empresas adicionais incluídas
+
+- Barrick Gold
+- Newmont
+- Agnico Eagle Mines
+- AngloGold Ashanti
+- Kinross Gold
+
 ## Observação
 Várias destas entidades são estatais ou operações específicas dentro de joint ventures sem calendário de RI próprio (ex.: NMMC, Almalyk MMC, Kyrgyzaltyn OJSC, SOKIMO). Para essas, é normal a busca diária não encontrar nada — só atualizar quando houver fonte oficial real, e priorizar nas buscas as controladoras com ações negociadas em bolsa (Barrick Mining, Newmont, Polyus PJSC, Glencore, Freeport-McMoRan, Agnico Eagle Mines, AngloGold Ashanti, Kinross Gold, B2Gold, Gold Fields, Lundin Gold, Harmony Gold, Greatland Resources, Endeavour Mining).

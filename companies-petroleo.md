@@ -537,5 +537,13 @@ Verificar diariamente se alguma destas empresas anunciou oficialmente (via comun
 - Enterprise + Enbridge
 - Múltiplos
 
+## Empresas adicionais incluídas
+
+- ExxonMobil
+- Chevron
+- Shell
+- TotalEnergies
+- Eni
+
 ## Observação
 A grande maioria destas entidades é subsidiária integral, refinaria isolada, joint venture ou estatal sem calendário de RI público (ex.: refinarias americanas operadas por LLCs, NOC/SOMO/NIORDC e demais estatais, JVs de pipeline/midstream). Para essas, é normal a busca diária não encontrar nada — só atualizar quando houver fonte oficial real, e priorizar nas buscas as controladoras com ações negociadas em bolsa (ExxonMobil, Chevron, BP, Shell, TotalEnergies, ConocoPhillips, Phillips 66, Valero, Marathon Petroleum, Suncor, Cenovus, Imperial Oil, Equinor, Eni, Repsol, OMV, MOL Group, Orlen Group, Galp Energia, HELLENiQ Energy, Motor Oil Hellas, Tüpraş, Neste, Petrobras, YPF, Ecopetrol, Reliance Industries, Indian Oil Corp, Bharat Petroleum, Hindustan Petroleum, ONGC, SK Innovation, S-Oil, GS Caltex, HD Hyundai Oilbank, ENEOS, Idemitsu Kosan, Cosmo Oil, PTT/Thaioil/PTT Global Chemical/IRPC, Bangchak, Formosa Petrochemical, Sinopec, PetroChina, CNOOC, Saudi Aramco, Petronas, Pertamina).
