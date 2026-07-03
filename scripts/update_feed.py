@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
+import html
 import json
 import os
+import re
 import ssl
 import sys
 import time
@@ -14,21 +16,51 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 STATE_FILE = DATA_DIR / "state.json"
 
-FEEDS = [
-    "https://feeds.feedburner.com/Reuters/worldNews",
-    "https://feeds.bbci.co.uk/news/world/rss.xml",
-    "https://news.google.com/rss/search?q=commodities&hl=pt-BR&gl=BR&ceid=BR:pt-419",
-]
+# Only Portuguese-language, Brazil-localized search feeds — the old mix of
+# Reuters/BBC world-news feeds pulled in English and off-topic blog content
+# because "world news" headlines false-matched loosely on commodity terms.
+FEED_QUERIES = {
+    "cobre": "cobre mineração OR preço",
+    "petroleo": "petróleo OR petrobras OR brent",
+    "aluminio": "alumínio mineração OR preço",
+    "ouro": "ouro mineração OR preço",
+    "platina": "platina OR PGM mineração",
+}
+FEEDS = {
+    key: "https://news.google.com/rss/search?" + urllib.parse.urlencode(
+        {"q": query, "hl": "pt-BR", "gl": "BR", "ceid": "BR:pt-419"}
+    )
+    for key, query in FEED_QUERIES.items()
+}
 
 COMMODITY_KEYS = ["cobre", "petroleo", "aluminio", "ouro", "platina"]
 
 COMMODITY_TERMS = {
-    "cobre": ["copper", "cobre", "copper prices", "copper mining"],
-    "petroleo": ["oil", "petroleum", "crude", "oil prices"],
-    "aluminio": ["aluminum", "aluminium", "aluminum prices"],
-    "ouro": ["gold", "gold prices", "gold mining"],
-    "platina": ["platinum", "platina", "platinum prices"],
+    "cobre": ["cobre", "copper"],
+    "petroleo": ["petróleo", "petroleo", "petrobras", "brent", "wti"],
+    "aluminio": ["alumínio", "aluminio", "aluminium", "aluminum"],
+    "ouro": ["ouro", "gold"],
+    "platina": ["platina", "platinum"],  # "pgm" dropped: collides with Procuradoria-Geral do Município
 }
+
+# Known false-positive phrases that share a keyword with the commodity term
+# but aren't commodity news (place names, unrelated companies, verb forms).
+EXCLUDE_PHRASES = {
+    "cobre": ["e cobre corte", "e cobre a"],
+    "ouro": ["ouro preto", "iphone de ouro"],
+    "petroleo": ["rouanet", "seleção pública", "centro tecnológico"],
+    "aluminio": [],
+    "platina": ["viação platina", "concurso pgm"],
+}
+
+TAG_RE = re.compile(r"<[^>]+>")
+
+
+def clean_text(text: str) -> str:
+    """Strip HTML tags/entities that Google News descriptions embed."""
+    text = html.unescape(text or "")
+    text = TAG_RE.sub(" ", text)
+    return re.sub(r"\s+", " ", text).strip()
 
 HEADLINE_TEMPLATE = {
     "id": None,
@@ -43,7 +75,7 @@ HEADLINE_TEMPLATE = {
 }
 
 
-def summarize_in_portuguese(text: str, max_chars: int = 300) -> str:
+def summarize_in_portuguese(text: str, max_chars: int = 420) -> str:
     """Summarize `text` in Portuguese.
     If OPENAI_API_KEY is set in the environment, call OpenAI ChatCompletion API.
     Otherwise, apply a conservative local fallback summarizer.
@@ -91,25 +123,9 @@ def summarize_in_portuguese(text: str, max_chars: int = 300) -> str:
             # If API call fails, fall back to local summarizer
             pass
 
-    # Local fallback summarizer: use title + first sentences of text, trimmed.
-    # Try to split into sentences by common punctuation.
+    # Local fallback: no API key available, so just present the (already
+    # Portuguese, since feeds are pt-BR) source text as-is, trimmed to length.
     s = text.replace("\n", " ").strip()
-    # naive sentence split
-    for sep in [". ", "? ", "! "]:
-        if sep in s:
-            parts = s.split(sep)
-            if parts:
-                first = parts[0].strip()
-                rest = sep.join(parts[1:]).strip()
-                candidate = first
-                if rest:
-                    candidate += ". " + rest[: max_chars // 3].strip()
-                candidate = candidate.strip()
-                if len(candidate) > max_chars:
-                    candidate = candidate[: max_chars - 3].rstrip() + "..."
-                return f"Resumo (PT): {candidate}"
-
-    # final fallback: trim
     if len(s) > max_chars:
         s = s[: max_chars - 3].rstrip() + "..."
     return f"Resumo (PT): {s}"
@@ -128,16 +144,16 @@ def parse_feed_entries(feed_url: str):
     ns = {"atom": "http://www.w3.org/2005/Atom"}
     entries = []
     for item in root.findall("./channel/item"):
-        title = (item.findtext("title") or "").strip()
+        title = clean_text(item.findtext("title") or "")
         link = (item.findtext("link") or "").strip()
-        desc = (item.findtext("description") or item.findtext("{http://purl.org/rss/1.0/modules/content/}encoded") or "").strip()
+        desc = clean_text(item.findtext("description") or item.findtext("{http://purl.org/rss/1.0/modules/content/}encoded") or "")
         if title:
             entries.append({"title": title, "link": link, "description": desc})
     if not entries:
         for item in root.findall("./entry"):
-            title = (item.findtext("title") or "").strip()
+            title = clean_text(item.findtext("title") or "")
             link = (item.findtext("link") or "").strip()
-            desc = (item.findtext("summary") or "").strip()
+            desc = clean_text(item.findtext("summary") or "")
             if title:
                 entries.append({"title": title, "link": link, "description": desc})
     return entries
@@ -146,10 +162,9 @@ def parse_feed_entries(feed_url: str):
 def build_headline(commodity: str, entry: dict, now: datetime):
     title = entry.get("title", "")
     link = entry.get("link") or ""
-    desc = entry.get("description") or title
-    # Combine title and description for summarization
-    text_for_summary = f"{title}. {desc}"
-    pt_summary = summarize_in_portuguese(text_for_summary, max_chars=320)
+    # Google News descriptions are just the title re-wrapped in a link with
+    # no new information, so summarizing off the title alone avoids duplication.
+    pt_summary = summarize_in_portuguese(title, max_chars=420)
     return {
         **HEADLINE_TEMPLATE,
         "id": f"news-{commodity}-{int(now.timestamp())}-{abs(hash(title)) % 100000}",
@@ -164,15 +179,15 @@ def build_headline(commodity: str, entry: dict, now: datetime):
 
 def collect_news(commodity: str):
     terms = COMMODITY_TERMS[commodity]
+    exclude = EXCLUDE_PHRASES.get(commodity, [])
     candidates = []
-    for feed_url in FEEDS:
-        try:
-            for entry in parse_feed_entries(feed_url):
-                text = " ".join([entry.get("title", ""), entry.get("description", "")]).lower()
-                if any(term.lower() in text for term in terms):
-                    candidates.append(entry)
-        except Exception:
-            continue
+    try:
+        for entry in parse_feed_entries(FEEDS[commodity]):
+            text = " ".join([entry.get("title", ""), entry.get("description", "")]).lower()
+            if any(term.lower() in text for term in terms) and not any(bad in text for bad in exclude):
+                candidates.append(entry)
+    except Exception:
+        pass
     seen = set()
     unique = []
     for entry in candidates:

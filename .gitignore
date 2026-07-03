@@ -2,3 +2,5 @@
 netlify_deploy/
 *.zip
 logs/
+__pycache__/
+.github/
