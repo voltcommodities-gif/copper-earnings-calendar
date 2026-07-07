@@ -38,7 +38,9 @@ var petroleoEvents = {
   ],
   "2026-08-07": [
     { co: "Petrobras (PBR/PETR4)", desc: "Webcast com investidores — resultado do 2T26" },
-    { co: "MOL Group", desc: "Relatório do 1º semestre 2026, inclui resultado do 2T26" }
+    { co: "MOL Group", desc: "Relatório do 1º semestre 2026, inclui resultado do 2T26" },
+    { co: "ENEOS Holdings", desc: "Resultado do 1º trimestre do ano fiscal 2027 (abr-jun 2026)" },
+    { co: "Idemitsu Kosan", desc: "Resultado do 1º trimestre do ano fiscal 2027 (abr-jun 2026)" }
   ],
   "2026-08-13": [
     { co: "BP (BP)", desc: "Resultado do 2º trimestre 2026" },
