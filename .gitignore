@@ -4,3 +4,4 @@ netlify_deploy/
 logs/
 __pycache__/
 .github/
+.claude/

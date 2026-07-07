@@ -9,6 +9,9 @@ var aluminioEvents = {
   "2026-07-29": [
     { co: "Rio Tinto (RIO)", desc: "Resultado do 1º semestre de 2026" }
   ],
+  "2026-08-06": [
+    { co: "Metlen Energy & Metals (ex-Mytilineos)", desc: "Resultado do 1º semestre 2026 e teleconferência" }
+  ],
   "2026-08-27": [
     { co: "South32 (S32)", desc: "Resultado do ano fiscal 2026 (encerrado 30/jun/26)" }
   ]

@@ -4,11 +4,13 @@ var cobreEvents = {
     { co: "Antofagasta plc (ANTO)", desc: "Relatório de Produção Q2 2026" }
   ],
   "2026-07-21": [
-    { co: "Boliden (BOL)", desc: "Relatório de Resultados do 2º trimestre 2026" }
+    { co: "Boliden (BOL)", desc: "Relatório de Resultados do 2º trimestre 2026" },
+    { co: "Vale S.A.", desc: "Relatório de produção e vendas do 2º trimestre 2026" }
   ],
   "2026-07-23": [
     { co: "Anglo American (AAL)", desc: "Relatório de Produção Q2 2026" },
-    { co: "Teck Resources (TECK)", desc: "Teleconferência de resultados Q2 2026" }
+    { co: "Teck Resources (TECK)", desc: "Teleconferência de resultados Q2 2026" },
+    { co: "Newmont", desc: "Teleconferência de resultados do 2º trimestre 2026" }
   ],
   "2026-07-28": [
     { co: "First Quantum Minerals (FM)", desc: "Resultado do 2º trimestre 2026 (teleconferência em 29/jul)" }
@@ -19,7 +21,9 @@ var cobreEvents = {
   ],
   "2026-07-30": [
     { co: "Anglo American (AAL)", desc: "Resultado do 1º semestre de 2026" },
-    { co: "Ivanhoe Mines (IVN)", desc: "Teleconferência de resultados Q2 2026" }
+    { co: "Ivanhoe Mines (IVN)", desc: "Teleconferência de resultados Q2 2026" },
+    { co: "Capstone Copper", desc: "Resultado do 2º trimestre 2026" },
+    { co: "Vale S.A.", desc: "Resultado do 2º trimestre 2026 (teleconferência em 31/07)" }
   ],
   "2026-08-05": [
     { co: "Glencore (GLEN)", desc: "Resultado do 1º semestre de 2026" },
